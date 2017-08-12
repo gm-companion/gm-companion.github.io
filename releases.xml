@@ -53,23 +53,6 @@ Thu, 25 May 2017 00:00:00 +0200
 </item>
 <item>
 <guid>
-https://gm-companion.github.io/posts-output/2017-05-24-Ubuntu-Repository-Is-Here/
-</guid>
-<link>
-https://gm-companion.github.io/posts-output/2017-05-24-Ubuntu-Repository-Is-Here/
-</link>
-<title>
-Ubuntu ppa is now available!
-</title>
-<description>
-&lt;p&gt;I finally did it.&lt;/p&gt;&lt;p&gt;Ok I know. I said it would take some time until the GM-Companion is released as a source package in a repository for GNU/Linux systems.&lt;br /&gt; But investing so much time in trying to do it and then giving up was somehow not acceptable for me.  So I simply invested even more time and now finally it is here. At least for Ubuntu 17.04 amd64 systems. I proudly present:&lt;br /&gt; &lt;i&gt;ppa:rophil/gm-companion&lt;/i&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;To add it to your system, open the terminal and type&lt;br /&gt; &lt;i&gt;sudo add-apt-repository ppa:rophil/gm-companion&lt;/i&gt;&lt;br /&gt; Then to install the program type&lt;br /&gt; &lt;i&gt;sudo apt-get update&lt;/i&gt;&lt;br /&gt; This updates the list of available software, so that the GM-Companion is available.&lt;br /&gt; &lt;i&gt;sudo apt-get install gm-companion&lt;/i&gt; Should install the program.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;To start it, simply type &lt;i&gt;gm-companion&lt;/i&gt; in the terminal and everything should (!) work.&lt;br /&gt; Maybe it does not. If it doesn't please open a GitHub Issue and report the problem.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;If &lt;i&gt;sudo apt-get update&lt;/i&gt; leads to an error regarding the public key, visit the wiki installation page.&lt;br /&gt; I will add a possible solution there.&lt;/p&gt;
-</description>
-<pubDate>
-Wed, 24 May 2017 00:00:00 +0200
-</pubDate>
-</item>
-<item>
-<guid>
 https://gm-companion.github.io/posts-output/2017-05-22-Beta-3_0-Released/
 </guid>
 <link>
@@ -83,23 +66,6 @@ Released version 0.3
 </description>
 <pubDate>
 Mon, 22 May 2017 00:00:00 +0200
-</pubDate>
-</item>
-<item>
-<guid>
-https://gm-companion.github.io/posts-output/2017-05-21-Beta-3_0-Release-Coming-Soon/
-</guid>
-<link>
-https://gm-companion.github.io/posts-output/2017-05-21-Beta-3_0-Release-Coming-Soon/
-</link>
-<title>
-Beta 3.0 Release Coming Soon!
-</title>
-<description>
-&lt;p&gt;Expect beta 3.0 to be released in the next days!&lt;/p&gt;&lt;p&gt;We are currently testing the second release candidate of beta 3.0 and I am working on the linux port.&lt;br /&gt; If there are no major bugs that require fixing, the new version should be out tomorrow or the day after.&lt;/p&gt;&lt;p&gt;Since the program was completely rewritten since beta 2.9.1 the new version should be way more performance efficient.&lt;br /&gt; Also you can expect some cool new features like a name generator or a character overview.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I am also working on updating the wiki but to be honest, that is really time consuming and could take some days as releasing the new version has a higher priority.&lt;/p&gt;
-</description>
-<pubDate>
-Sun, 21 May 2017 00:00:00 +0200
 </pubDate>
 </item>
 </channel>
