@@ -46,16 +46,17 @@
             <li {% if home %} class="active" {% endif %}><a title="Home" href="{{index-uri}}">Home</a></li>
 			<li {% if github %} class="active" {% endif %}><a title="View on GitHub" href="https://github.com/PhilInTheGaps/GM-Companion">View on GitHub</a></li>
 			<li {% if documentation %} class="active" {% endif %}><a title="Documentation" href="https://github.com/PhilInTheGaps/GM-Companion/wiki">Documentation</a></li>
-			<li {% if download %} class="active" {% endif %}><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>
-            <li {% if archives %} class="active" {% endif %}><a title="Archives" href="{{archives-uri}}">Archives</a></li>
-            {% if tags|not-empty %}
-            <li {%ifequal uri tags-uri %} class="active" {% endifequal %}><a title="Tags" href="{{tags-uri}}">Tags</a></li>
-            {% endif %}
-            {% for nav-page in navbar-pages %}
+			<!--<li {% if download %} class="active" {% endif %}><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>-->
+			{% for nav-page in navbar-pages %}
             <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
                 <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
             </li>
             {% endfor %}
+            
+            <li {% if archives %} class="active" {% endif %}><a title="Archives" href="{{archives-uri}}">Archives</a></li>
+            {% if tags|not-empty %}
+            <li {%ifequal uri tags-uri %} class="active" {% endifequal %}><a title="Tags" href="{{tags-uri}}">Tags</a></li>
+            {% endif %}
         </ul>
     </div>
 	
