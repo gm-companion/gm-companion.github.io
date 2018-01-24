@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>GM-Companion: Quick Progress Update</title>
+    <title>GM-Companion: Download</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -46,15 +46,20 @@
             <li ><a title="Home" href="/">Home</a></li>
 			<li ><a title="View on GitHub" href="https://github.com/PhilInTheGaps/GM-Companion">View on GitHub</a></li>
 			<li ><a title="Documentation" href="https://github.com/PhilInTheGaps/GM-Companion/wiki">Documentation</a></li>
-			<li ><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>
+			<!--<li ><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>-->
+			
+            <li  class="active" >
+                <a href="/pages/download/">Download</a>
+            </li>
+            
+            <li >
+                <a href="/pages/about/">About</a>
+            </li>
+            
+            
             <li ><a title="Archives" href="/archives/">Archives</a></li>
             
             <li ><a title="Tags" href="/tags/">Tags</a></li>
-            
-            
-            <li >
-                <a href="/pages-output/about/">About</a>
-            </li>
             
         </ul>
     </div>
@@ -71,41 +76,25 @@
 
 <div id="right" class="clearfix">
     
-<div id="post">
-    <div class="post-header">
-    <div id="post-meta" class="row">
-        <strong>January 22, 2018</strong>
-        
+<div id="custom-page">
+    <div id="page-header">
+        <h1>Download</h1>
     </div>
-    <h1>Quick Progress Update</h1>
-</div>
-<div>
     
-     <p>As I have not done anything with this website in the past 6 months, here is an update:</p><p>The last blog post here indicates that I released Beta 3.1.<br /> Well actually I have released two newer versions since then but have completely forgotten to put updates out here, especially since I removed the start page which would display this blog from the program.</p><p>I don't want to go into too much detail on everything that has changed since version 0.3.1, partly because I am currently working on the first stable release version.<br /> That one will contain another UI overhaul, lots of improvements to existing tools and also some new ones which I find to be really useful.<br /> When I have the time, I will probably do a blog post on some of the coolest new features version 1.0 will have.<br /></p><p>So when will it come out?<br /> I don't know. There is still a lot of work to be done. Partly because it's not just the programming, but because I also want to write a nice documentation for everything to improve the user experience.</p><p>So that's it for now, hopefully I will have more to show in the next weeks.<br /></p><p>Have fun!</p>
-</div>
-
-<div id="post-tags">
-    <br/> 
-    <b>Tags: </b>
-    
-    <a href="/tags-output/info/">info</a>
-    
-    <a href="/tags-output/gm-companion/">gm-companion</a>
-    
-</div>
-
-<br/>
+     <p>GM-Companion is officially available for Windows and Linux.<br /> The most current version is Beta 3.3, the first release version 1.0 is currently in development.</p><h2 id="windows">Windows</h2><p>For Windows there are 64-bit and 32-bit installers available:</p><p>	<a href='https://github.com/PhilInTheGaps/GM-Companion/releases/download/0.3.3.0/gm-companion_0.3.3_win64_setup.exe'>Beta 3.3 (Win x64 Installer)</a><br /> 	<a href='https://github.com/PhilInTheGaps/GM-Companion/releases/download/0.3.3.0/gm-companion_0.3.3_win32_setup.exe'>Beta 3.3 (Win x86 Installer)</a><br /> 	</p><p>If you don't want an installer and instead want a zipped version that runs without an installer:</p><p>	<a href='https://github.com/PhilInTheGaps/GM-Companion/releases/download/0.3.3.0/gm-companion_0.3.3_win64.zip'>Beta 3.3 (Win x64)</a><br /> 	<a href='https://github.com/PhilInTheGaps/GM-Companion/releases/download/0.3.3.0/gm-companion_0.3.3_win32.zip'>Beta 3.3 (Win x86)</a><br /> 	</p><p>Older versions are available at the <a href='https://github.com/PhilInTheGaps/GM-Companion/releases'>GitHub Release Page</a><br /></p><h2 id="linux">Linux</h2><p>Currently only Ubuntu is officially supported, but an Arch Linux package will be available in the future.</p><h3 id="ubuntu">Ubuntu</h3><p>For Ubuntu the easiest way is to add the gm-companion software repository and install the gm-companion from there.</p><pre><code>sudo add-apt-repository ppa:rophil/gm-companion  
+sudo apt-get update  
+sudo apt-get install gm-companion  
+</code></pre><p>I also have a daily-build repsository that always has the newest development version.<br /> I do not recommend using it, but if for some reason you absolutely want to use it, here:<br /></p><pre><code>sudo add-apt-repository ppa:rophil/gm-companion-daily  
+sudo apt-get update  
+sudo apt-get install gm-companion  
+</code></pre><h3 id="other&#95;distros">Other Distros</h3><p>Currently your only option is to compile the code yourself.<br /></p><p>GM-Companion requires Qt5 to build.<br /></p><p>So the build steps would look something like this:<br /></p><ol><li>Clone the <a href='https://github.com/PhilInTheGaps/GM-Companion'>GitHub repository</a></li><li>Install Qt5</li><li>Go to the GM-Companion folder</li><li>Run qmake</li><li>Run make</li></ol><h2 id="macos">MacOS</h2><p>As the GM-Companion is Qt5 based, it should run on MacOS.<br /> Though I don't use a mac and can't confirm it.<br /> You could try the same steps I wrote above for other Linux distros and compile everything yourself.</p><p>Maybe it works, good luck!</p>
 
     <div id="prev-next">
         
         
-        <a class="right button" href="/posts-output/2017-06-23-Beta-3-1-Release/">Released version 0.3.1 &raquo;</a>
+        <a class="right button" href="/pages/about/">About &raquo;</a>
         
     </div>
-
-    
-
-
 </div>
 
 <hr/>
@@ -118,11 +107,11 @@
 <script src="/js/highlight.pack.js" type="text/javascript"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="/js/scripts.js" type="text/javascript"></script>
+
  <link rel="stylesheet" type="text/css" href=nil>
 <script>
 window.klipse_settings = null;
 </script>
 <script src=nil></script> 
-
 </body>
 </html>

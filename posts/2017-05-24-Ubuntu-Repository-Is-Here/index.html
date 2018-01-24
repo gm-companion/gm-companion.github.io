@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>GM-Companion: Released version 0.3.1</title>
+    <title>GM-Companion: Ubuntu ppa is now available!</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -46,15 +46,20 @@
             <li ><a title="Home" href="/">Home</a></li>
 			<li ><a title="View on GitHub" href="https://github.com/PhilInTheGaps/GM-Companion">View on GitHub</a></li>
 			<li ><a title="Documentation" href="https://github.com/PhilInTheGaps/GM-Companion/wiki">Documentation</a></li>
-			<li ><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>
+			<!--<li ><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>-->
+			
+            <li >
+                <a href="/pages/download/">Download</a>
+            </li>
+            
+            <li >
+                <a href="/pages/about/">About</a>
+            </li>
+            
+            
             <li ><a title="Archives" href="/archives/">Archives</a></li>
             
             <li ><a title="Tags" href="/tags/">Tags</a></li>
-            
-            
-            <li >
-                <a href="/pages-output/about/">About</a>
-            </li>
             
         </ul>
     </div>
@@ -74,25 +79,25 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>23. Juni 2017</strong>
+        <strong>May 24, 2017</strong>
         
     </div>
-    <h1>Released version 0.3.1</h1>
+    <h1>Ubuntu ppa is now available!</h1>
 </div>
 <div>
     
-     <p>Beta 3.1 has been released!</p><p>This update introduces a notes system, translation support and improves the UI.<br /> Custom Qt-StyleSheets are supported as well.<br /></p><p>It also introduces the concept of addons for specific rpg systems.<br /> This feature is still under development and will have more features in the future.<br /> Currently there are two addons available:<br /></p><ul><li>DSA5 (The Dark Eye, though currently only available in German)</li><li>SIFRP (A Song of Ice and Fire Roleplaying)</li></ul><p>Official addons for other systems will be available in the future and there will also be an Addon-Creator for you to create your own addons.<br /></p><p>Addons can add system specific units to the unit converter, notes and the SIFRP addon enables a SIFRP House Generator.<br /> Again, this will change in future updates.<br /> Addons can be installed with the AddonManager via the new "Options" window.<br /> The AddonManager is written in Java and also WIP.<br /></p><p>I no longer provide a .deb package to install the GM-Companion on Ubuntu systems, use the Launchpad repository instead.<br /> I figured out how to let the program build from git, which allows me to provide the GM-Companion for amd64 systems from Ubuntu 16.10 upwards.<br /> Older versions are unfortunately not supported, as well as 32-bit systems, though that might be possible in the future.</p>
+    <p>I finally did it.</p><p>Ok I know. I said it would take some time until the GM-Companion is released as a source package in a repository for GNU/Linux systems.<br /> But investing so much time in trying to do it and then giving up was somehow not acceptable for me.  So I simply invested even more time and now finally it is here. At least for Ubuntu 17.04 amd64 systems. I proudly present:<br /> <i>ppa:rophil/gm-companion</i><br /></p><p>To add it to your system, open the terminal and type<br /> <i>sudo add-apt-repository ppa:rophil/gm-companion</i><br /> Then to install the program type<br /> <i>sudo apt-get update</i><br /> This updates the list of available software, so that the GM-Companion is available.<br /> <i>sudo apt-get install gm-companion</i> Should install the program.<br /></p><p>To start it, simply type <i>gm-companion</i> in the terminal and everything should (!) work.<br /> Maybe it does not. If it doesn't please open a GitHub Issue and report the problem.<br /></p><p>If <i>sudo apt-get update</i> leads to an error regarding the public key, visit the wiki installation page.<br /> I will add a possible solution there.</p>
 </div>
 
 <div id="post-tags">
     <br/> 
     <b>Tags: </b>
     
-    <a href="/tags-output/info/">info</a>
+    <a href="/tags/info/">info</a>
     
-    <a href="/tags-output/releases/">releases</a>
+    <a href="/tags/linux/">linux</a>
     
-    <a href="/tags-output/gm-companion/">gm-companion</a>
+    <a href="/tags/gm-companion/">gm-companion</a>
     
 </div>
 
@@ -100,8 +105,10 @@
 
     <div id="prev-next">
         
+        <a class="button" href="/posts/2017-05-25-Fix-0-3-0-1/">&laquo; Released version 0.3.0.1</a>
         
-        <a class="right button" href="/posts-output/2017-05-25-Fix-0-3-0-1/">Released version 0.3.0.1 &raquo;</a>
+        
+        <a class="right button" href="/posts/2017-05-22-Beta-3_0-Released/">Released version 0.3 &raquo;</a>
         
     </div>
 
@@ -111,7 +118,7 @@
 </div>
 
 <hr/>
-<div id="footercont" class="clearfix">Copyright &copy; 2017 Phil Hoffmann
+<div id="footercont" class="clearfix">Copyright &copy; 2018 Phil Hoffmann
     <p>Powered by <a href="http://cryogenweb.org">Cryogen</a> | Website Template: <a title="Nucleus:" href="http://www.downloadwebsitetemplates.co.uk/template/nucleus/" rel="external">Nucleus</a></p>
 
 </div>
