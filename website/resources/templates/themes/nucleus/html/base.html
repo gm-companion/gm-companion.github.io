@@ -11,20 +11,15 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <!--[if IE]><![endif]-->
     {% style "css/buttons.css" %}
     {% style "css/menu.css" %}
     {% style "css/reset.css" %}
     {% style "css/style.css" %}
     {% style "css/typography.css" %}
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 
@@ -44,6 +39,7 @@
         </div>
         <ul class="menu">
             <li {% if home %} class="active" {% endif %}><a title="Home" href="{{index-uri}}">Home</a></li>
+            <li {% if blog %} class="active" {% endif %}><a title="Blog" href="{{archives-uri}}">Blog</a></li>
 			<li {% if github %} class="active" {% endif %}><a title="View on GitHub" href="https://github.com/PhilInTheGaps/GM-Companion">View on GitHub</a></li>
 			<li {% if documentation %} class="active" {% endif %}><a title="Documentation" href="https://github.com/PhilInTheGaps/GM-Companion/wiki">Documentation</a></li>
 			<!--<li {% if download %} class="active" {% endif %}><a title="Download" href="https://github.com/PhilInTheGaps/GM-Companion/releases">Download</a></li>-->
@@ -53,7 +49,6 @@
             </li>
             {% endfor %}
             
-            <li {% if archives %} class="active" {% endif %}><a title="Archives" href="{{archives-uri}}">Archives</a></li>
             {% if tags|not-empty %}
             <li {%ifequal uri tags-uri %} class="active" {% endifequal %}><a title="Tags" href="{{tags-uri}}">Tags</a></li>
             {% endif %}
