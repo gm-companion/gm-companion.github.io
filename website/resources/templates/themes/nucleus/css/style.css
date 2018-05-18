@@ -51,17 +51,17 @@ body {
 }
 
 ::selection {
-    background: #A71E2E;
+    background: #343a43;
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #A71E2E;
+    background: #343a43;
     color: #FFF;
 }
 
 a {
-    color: #A71E2E;
+    color: #343a43;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ img.imgfull {
     width: 100%;
     max-width: 1000px;
     margin: 0 0 20px 0;
-    border-top: 5px solid #A71E2E;
+    border-top: 5px solid #343a43;
 }
 
 /* ==================================================
@@ -117,7 +117,7 @@ img.imgfull {
     bottom: 0;
     width: 100%;
     max-width: 280px;
-    background: #A71E2E;
+    background: #343a43;
     color: #FFF;
     z-index: 3;
     overflow-y: auto;
@@ -130,16 +130,16 @@ img.imgfull {
 }
 
 #left p#logo a {
-    float: left;
+    float: center;
     display: block;
-    padding: 30px 20px;
+    padding: 20px 20px;
     width: 100%;
     color: #FFF;
     margin: 0 0 20px 0;
 }
 
 #left p#logo a span.fa {
-    float: left;
+    float: center;
     display: block;
     padding: 25px;
     background: rgba(0, 0, 0, 0.2);
@@ -154,7 +154,7 @@ img.imgfull {
 #left p#logo a span.text {
     float: left;
     width: 100%;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 30px;
     font-weight: 700;
     font-family: "Montserrat";
