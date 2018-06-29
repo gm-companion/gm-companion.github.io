@@ -2,11 +2,11 @@
  :layout :post
  :date   "2018-01-22"
  :tags   ["gm-companion", "info"]}
- 
+
 As I have not done anything with this website in the past 6 months, here is an update:
 
 The last blog post here indicates that I released Beta 3.1.  
-Well actually I have released two newer versions since then but have completely forgotten to put updates out here, especially since I removed the start page which would display this blog from the program.
+Well, actually I have released two newer versions since then but have completely forgotten to put updates out here, especially since I removed the start page which would display this blog from within the program.
 
 I don't want to go into too much detail on everything that has changed since version 0.3.1, partly because I am currently working on the first stable release version.  
 That one will contain another UI overhaul, lots of improvements to existing tools and also some new ones which I find to be really useful.  
