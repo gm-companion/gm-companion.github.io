@@ -3,7 +3,7 @@
  :page-index 10
  :navbar?    true
  :home?      false}
- 
+
 The GM-Companion is a tool written by a german student who simply enjoys playing RPGs.
 
 It aims to support the gamemaster of a RPG session by providing lots of different tools that were developed after after we played a round and the gamemaster (sometimes me, sometimes friends of mine) said something like "It would be cool if there was a tool for that".
@@ -13,3 +13,8 @@ The goal is to make playing RPGs easier and more enjoyable for everyone. So if y
 As always, have fun playing!  
 
 Phil
+
+
+
+
+[Impressum](https://gm-companion.github.io/pages/impressum/)
