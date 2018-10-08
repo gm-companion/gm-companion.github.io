@@ -1,5 +1,5 @@
 ---
-title: Beta 3.0 Release Coming Soon!
+title: Beta 3.0 Coming Soon!
 author: Phil
 layout: post
 ---
