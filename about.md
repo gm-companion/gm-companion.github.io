@@ -2,8 +2,8 @@
 title: About
 subtitle:
 layout: "page"
-icon: fa-book
-order: 4
+icon: fa-info-circle
+order: 7
 ---
 
 The GM-Companion is a tool written by a german student who simply enjoys playing RPGs.

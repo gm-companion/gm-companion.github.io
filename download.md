@@ -8,13 +8,9 @@ order: 3
 
 ## Windows
 
-On Windows there is only a 64 bits version available. If you want to use the GM-Companion on a 32 bits machine, you have to build the program from source.
-
-[Release 1.0.2 (Win x64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.0.2/gm-companion_1.0.2_win64.zip)  
+[Release 1.1.0 (Win x64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion_1.1.0_win64.zip)  
 
 The program works without an installer. Simply extract all the files from the .zip archive to a folder and run _gm-companion.exe_.
-
-Older versions are available at the [GitHub Release Page](https://github.com/PhilInTheGaps/GM-Companion/releases).
 
 ## Linux
 
@@ -23,42 +19,70 @@ Older versions are available at the [GitHub Release Page](https://github.com/Phi
 Install from AUR:
 
 ```
-aurman -S gm-companion
+yay -S gm-companion
 ```
 
 ### Ubuntu
 
-__As version 1.0 requires Qt 5.10 or higher, the Ubuntu repository version will not work (currently only Ubuntu 18.10 meets that requirement), the latest working one is Beta 3.3. If you are on Ubuntu and want the newest version, please compile from source instead!__
+Currently your best option is to build from source:  
+(I am working on a ppa)
 
-For Ubuntu the easiest way is to add the gm-companion software repository and install the gm-companion from there.
-
-```
-sudo add-apt-repository ppa:rophil/gm-companion  
-sudo apt-get update  
-sudo apt-get install gm-companion  
-```
-
-I also have a daily-build repsository that always has the newest development version.  
-I do not recommend using it, but if for some reason you absolutely want to use it, here:  
-
+#### Ubuntu 18.10
 
 ```
-sudo add-apt-repository ppa:rophil/gm-companion-daily  
-sudo apt-get update  
-sudo apt-get install gm-companion  
+git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
+
+sudo apt-get install qtbase5-dev qt5-default qttools5-dev qtmultimedia5-dev libqt5opengl5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev qtdeclarative5-dev libqt5network5 libqt5webengine5 libqt5webenginecore5 libqt5networkauth5-dev libqt5core5a libqt5multimedia5 libqt5multimedia5-plugins libqt5network5 libqt5networkauth5 libqt5opengl5 libqt5script5 libqt5widgets5 libqt5xml5 libqt5xmlpatterns5 libqt5gui5 libqt5qml5 libqt5quick5 qml-module-qtquick-layouts qml-module-qtquick-window2 libqt5quickcontrols2-5 qml-module-qtquick2 qml-module-qtquick-controls libqt5webengine5 libqt5webenginecore5 libqt5multimediaquick5 libqt5quickwidgets5 libpoppler-qt5-dev
+
+cd GM-Companion
+qmake
+make
+./out/gm-companion
 ```
 
-## Building From Source
+#### Ubuntu 18.04
 
-You can also build the program from source. This should work for Windows, Linux and Mac.  
-Even though the travis.ci build for MacOS compiles without errors, I don't know if that version works 100% as I don't own a Mac to test this on.
+```
+git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
 
-GM-Companion requires Qt5 to build.  
+sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-bionic
+sudo apt-get update
+sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
 
-So the build steps would look something like this:  
-1. Clone the [GitHub repository](https://github.com/PhilInTheGaps/GM-Companion)  
-2. Install [Qt5](https://www.qt.io/) (GM-Companion requires at least version 5.10)  
-3. If you are on Linux install TagLib  
-4. Switch to the GM-Companion folder  
-5. Run qmake  
-6. Run make  
+source /opt/qt512/bin/qt512-env.sh
+
+cd GM-Companion
+qmake
+make
+./out/gm-companion
+```
+
+#### Ubuntu 16.04
+
+```
+git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
+
+sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-xenial
+sudo apt-get update
+sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
+
+source /opt/qt512/bin/qt512-env.sh
+
+cd GM-Companion
+qmake
+make
+./out/gm-companion
+```
+
+## Other Distros
+
+1. `git clone --recursive https://github.com/PhilInTheGaps/GM-Companion`
+2. Install [Qt5](https://www.qt.io/) >=5.10  
+3. Install [Poppler-Qt5](https://poppler.freedesktop.org/)  
+4. Build the program:
+```
+cd GM-Companion
+qmake
+make
+./out/gm-companion
+```
