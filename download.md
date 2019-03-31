@@ -14,9 +14,16 @@ The program works without an installer. Simply extract all the files from the .z
 
 ## Linux
 
-### Arch
+### AppImage
 
-Install from AUR:
+[Download 64-bit](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion-1.1.0_amd64.AppImage)  
+The AppImage is built using Ubuntu 16.04 LTS.
+
+You might have to install gstreamer 1.0 otherwise audio cannot be played. For me this version works on Ubuntu but not on Manjaro.
+
+### Arch Linux
+
+Install from [AUR](https://aur.archlinux.org/packages/gm-companion/):
 
 ```
 yay -S gm-companion
@@ -37,7 +44,12 @@ sudo apt-get install qtbase5-dev qt5-default qttools5-dev qtmultimedia5-dev libq
 cd GM-Companion
 qmake
 make
-./out/gm-companion
+```
+run: `./gm-companion`  
+or install:
+```
+make install
+gm-companion
 ```
 
 #### Ubuntu 18.04
@@ -54,7 +66,12 @@ source /opt/qt512/bin/qt512-env.sh
 cd GM-Companion
 qmake
 make
-./out/gm-companion
+```
+run: `./gm-companion`  
+or install:
+```
+make install
+gm-companion
 ```
 
 #### Ubuntu 16.04
@@ -71,7 +88,12 @@ source /opt/qt512/bin/qt512-env.sh
 cd GM-Companion
 qmake
 make
-./out/gm-companion
+```
+run: `./gm-companion`  
+or install:
+```
+make install
+gm-companion
 ```
 
 ## Other Distros
@@ -84,5 +106,10 @@ make
 cd GM-Companion
 qmake
 make
-./out/gm-companion
+```
+run: `./gm-companion`  
+or install:
+```
+make install
+gm-companion
 ```
