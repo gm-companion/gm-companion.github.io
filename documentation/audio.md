@@ -136,7 +136,7 @@ Do all the steps and register a new spotify application. The app name and descri
 
 2. **Set Redirect URLs**  
 Click on your newly registered application and click _"Edit Settings"_.  
-Add _http://127.0.0.1:1965/_ as a redirect url and save the settings.
+Add _http://127.0.0.1:59991/_ as a redirect url and save the settings.
 
 3. **Get the Client ID and Secret**  
 Click _"Show Client Secret"_.  
