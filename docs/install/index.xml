@@ -1,0 +1,206 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Install</title><link>https://gm-companion.github.io/docs/install/</link><description>Recent content in Install on GM-Companion</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://gm-companion.github.io/docs/install/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Linux</title><link>https://gm-companion.github.io/docs/install/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/linux/</guid><description>
+&lt;p>&lt;a href="https://repology.org/project/gm-companion/versions">&lt;img src="https://repology.org/badge/vertical-allrepos/gm-companion.svg" alt="Packaging status">&lt;/a>&lt;/p>
+&lt;h2 id="appimage">AppImage&lt;/h2>
+&lt;p>&lt;a href="https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion-1.1.0_amd64.AppImage">Download 64-bit&lt;/a>&lt;br>
+The AppImage is built using Ubuntu 16.04 LTS.&lt;/p>
+&lt;p>You might have to install &lt;code>gstreamer 1.0&lt;/code> otherwise audio cannot be played. For me this version works on Ubuntu but not on Manjaro.&lt;/p>
+&lt;h2 id="arch-linux">Arch Linux&lt;/h2>
+&lt;p>Install from &lt;a href="https://aur.archlinux.org/packages/gm-companion/">AUR&lt;/a>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>yay -S gm-companion
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ubuntu">Ubuntu&lt;/h2>
+&lt;p>Currently your best option is to build from source:&lt;br>
+(I am working on a ppa)&lt;/p>
+&lt;h3 id="ubuntu-1810">Ubuntu 18.10&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install qtbase5-dev qt5-default qttools5-dev qtmultimedia5-dev libqt5opengl5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev qtdeclarative5-dev libqt5network5 libqt5webengine5 libqt5webenginecore5 libqt5networkauth5-dev libqt5core5a libqt5multimedia5 libqt5multimedia5-plugins libqt5network5 libqt5networkauth5 libqt5opengl5 libqt5script5 libqt5widgets5 libqt5xml5 libqt5xmlpatterns5 libqt5gui5 libqt5qml5 libqt5quick5 qml-module-qtquick-layouts qml-module-qtquick-window2 libqt5quickcontrols2-5 qml-module-qtquick2 qml-module-qtquick-controls libqt5webengine5 libqt5webenginecore5 libqt5multimediaquick5 libqt5quickwidgets5 libpoppler-qt5-dev
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
+or install:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ubuntu-1804">Ubuntu 18.04&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-bionic
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /opt/qt512/bin/qt512-env.sh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
+or install:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ubuntu-1604">Ubuntu 16.04&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-xenial
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /opt/qt512/bin/qt512-env.sh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
+or install:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="debian">Debian&lt;/h2>
+&lt;p>(Debian Buster)&lt;/p>
+&lt;p>Install build dependencies&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo apt install build-essential qt5-default libqt5network5 libqt5networkauth5-dev libqt5quick5 qtdeclarative5-dev qtmultimedia5-dev qtquickcontrols2-5-dev libpoppler-qt5-dev qt5keychain-dev libtag1-dev openssl qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform qml-module-qt-labs-settings qml-module-qtquick-controls2 qml-module-qtquick-controls qml-module-qtquick-dialogs qml-module-qtquick-extras qml-module-qtquick-window2 qml-module-qtquick2 cargo libasound2-dev -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get librespot&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cargo install librespot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake CONFIG+=release PREFIX=/usr
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(nproc)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="arch--manjaro">Arch / Manjaro&lt;/h2>
+&lt;p>Install dependencies&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo pacman -S base-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>// TODO&lt;/p>
+&lt;h2 id="fedora">Fedora&lt;/h2>
+&lt;p>Install dependencies&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo dnf groupinstall &amp;#34;Development Tools&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dnf install qt5 qt5-devel poppler-qt5-devel qtkeychain-devel taglib-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Create workaround links for qtkeychain&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo ln -s /usr/include/qtkeychain /usr/include/qt5keychain
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ln -s /usr/lib64/libqtkeychain.so /usr/lib64/libqt5keychain.so
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake-qt5 CONFIG+=release PREFIX=/usr
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(nproc)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="other-distros">Other Distros&lt;/h2>
+&lt;ol>
+&lt;li>&lt;code>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion&lt;/code>&lt;/li>
+&lt;li>Install &lt;a href="https://www.qt.io/">Qt5&lt;/a> &amp;gt;=5.10&lt;/li>
+&lt;li>Install &lt;a href="https://poppler.freedesktop.org/">Poppler-Qt5&lt;/a>&lt;/li>
+&lt;li>Build the program:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cd GM-Companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
+or install:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Windows</title><link>https://gm-companion.github.io/docs/install/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/windows/</guid><description>
+&lt;p>&lt;a href="https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion_1.1.0_win64.zip">Release 1.1.0 (Win x64)&lt;/a>&lt;/p>
+&lt;p>The program works without an installer. Simply extract all the files from the .zip archive to a folder and run &lt;em>gm-companion.exe&lt;/em>.&lt;/p>
+&lt;h2 id="build-from-source">Build from Source&lt;/h2>
+&lt;h3 id="requirements">Requirements&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.qt.io/download">Qt&lt;/a>
+&lt;ul>
+&lt;li>install the latest LTS version&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="http://mingw.org/">MinGW&lt;/a>
+&lt;ul>
+&lt;li>can be installed through the Qt installer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://taglib.org/">TagLib&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/PhilInTheGaps/taglib-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://poppler.freedesktop.org/">Poppler&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/PhilInTheGaps/poppler-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/frankosterfeld/qtkeychain">qtkeychain&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/PhilInTheGaps/qtkeychain-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>(optional) &lt;a href="https://github.com/librespot-org/librespot">librespot&lt;/a>
+&lt;ul>
+&lt;li>if you intent to use Spotify&lt;/li>
+&lt;li>&lt;a href="https://github.com/PhilInTheGaps/librespot-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="build-instructions">Build Instructions&lt;/h3>
+&lt;p>Get source code&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Unpack build dependencies&lt;/p>
+&lt;ul>
+&lt;li>unpack poppler.zip to gm-companion\lib\poppler&lt;/li>
+&lt;li>unpack qt5keychain.zip to gm-companion\lib\qt&lt;strong>5&lt;/strong>keychain&lt;/li>
+&lt;li>unpack taglib.zip to gm-companion\lib\taglib&lt;/li>
+&lt;/ul>
+&lt;p>Build&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake DEFINES-=NO_UPDATE_CHECK CONFIG+=qtquickcompiler CONFIG+=release PREFIX=install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make -j%NUMBER_OF_PROCESSORS%
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make check
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fetch libraries&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cd src\install\bin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>set QT_PATH=&amp;lt;e.g C:\Qt\5.12.8\mingw73_64&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>windeployqt.exe -xml --release --qmldir %QT_PATH%\qml gm-companion.exe
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Copy additional libraries&lt;/p>
+&lt;ul>
+&lt;li>copy contents of the bin directories from taglib.zip, poppler.zip and qt5keychain.zip to src\install\bin&lt;/li>
+&lt;li>if you intent to use Spotify, copy librespot.exe to src\install\bin
+&lt;ul>
+&lt;li>make sure the file is named librespot.exe and not librespot-x86_64.exe&lt;/li>
+&lt;li>alternatively if you installed librespot from cargo make sure the cargo bin directory is in your path&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Install from Source</title><link>https://gm-companion.github.io/docs/install/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/other/</guid><description>
+&lt;h2 id="mac-os-x">Mac OS X&lt;/h2>
+&lt;p>This requires homebrew to be installed.&lt;/p>
+&lt;p>Install dependencies&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>brew update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>brew install qt taglib poppler qtkeychain rust
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>brew link qt --force
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get librespot&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cargo install librespot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(sysctl -n hw.logicalcpu)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="general">General&lt;/h2>
+&lt;p>TODO: Format&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>pip install cget
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cget init --shared
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cget install -G &amp;#34;MinGW Makefiles&amp;#34; --release -DCMAKE_C_FLAGS=&amp;#34;-fno-asynchronous-unwind-tables&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build dependencies:&lt;/p>
+&lt;ul>
+&lt;li>cmake&lt;/li>
+&lt;li>yasm&lt;/li>
+&lt;li>pkgconfig (lite)&lt;/li>
+&lt;/ul>
+&lt;p>GM-Companion depends on the following libraries:&lt;/p>
+&lt;ul>
+&lt;li>Qt &amp;gt;= 5.9&lt;/li>
+&lt;li>taglib&lt;/li>
+&lt;li>poppler-qt&lt;/li>
+&lt;li>wkhtmltopdf&lt;/li>
+&lt;li>cmark-gfm&lt;/li>
+&lt;li>librespot&lt;/li>
+&lt;li>qt5keychain&lt;/li>
+&lt;li>openssl&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,76 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Goldydocs</title><link>https://gm-companion.github.io/</link><description>Recent content in Goldydocs on GM-Companion</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://gm-companion.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Version 1.0 Released!</title><link>https://gm-companion.github.io/blog/2018-10-08-version-1-0-released/</link><pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2018-10-08-version-1-0-released/</guid><description>
+&lt;p>GM-Companion version 1.0 has been released. Finally!&lt;/p>
+&lt;p>The last release (0.3.3) was nearly a year ago. Since then I have completely rewritten the UI (I switched from QT Widgets to QML), added a new tool, improved old tools and changed a lot of features back and forth until I was really happy with them.&lt;/p>
+&lt;p>Unfortunately I was not able to spend as much time developing the GM-Companion as I would have liked, but I am really proud of what it has become and hope that someone else will find it as useful as I do.&lt;/p>
+&lt;p>A big thank you to everyone who has helped me during the development by testing builds and giving feedback!&lt;/p>
+&lt;p>For a complete list of changes click &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/wiki/Changelog">here&lt;/a>.&lt;/p>
+&lt;p>If you find any issues with this version or have ideas regarding new features or changes to existing ones, feel free to suggest them &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/issues">here&lt;/a>!&lt;/p>
+&lt;p>Have fun!&lt;/p>
+&lt;p>Phil&lt;/p></description></item><item><title>Blog: Quick Progress Update</title><link>https://gm-companion.github.io/blog/2018-01-22-quick-update/</link><pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2018-01-22-quick-update/</guid><description>
+&lt;p>As I have not done anything with this website in the past 6 months, here is an update:&lt;/p>
+&lt;p>The last blog post here indicates that I released Beta 3.1.&lt;br>
+Well, actually I have released two newer versions since then but have completely forgotten to put updates out here, especially since I removed the start page which would display this blog from within the program.&lt;/p>
+&lt;p>I don&amp;rsquo;t want to go into too much detail on everything that has changed since version 0.3.1, partly because I am currently working on the first stable release version.&lt;br>
+That one will contain another UI overhaul, lots of improvements to existing tools and also some new ones which I find to be really useful.&lt;br>
+When I have the time, I will probably do a blog post on some of the coolest new features version 1.0 will have.&lt;/p>
+&lt;p>So when will it come out?&lt;br>
+I don&amp;rsquo;t know. There is still a lot of work to be done. Partly because it&amp;rsquo;s not just the programming, but because I also want to write a nice documentation for everything to improve the user experience.&lt;/p>
+&lt;p>So that&amp;rsquo;s it for now, hopefully I will have more to show in the next weeks.&lt;/p>
+&lt;p>Have fun!&lt;/p></description></item><item><title>Blog: Released Beta 3.1</title><link>https://gm-companion.github.io/blog/2017-06-23-beta-3-1-release/</link><pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2017-06-23-beta-3-1-release/</guid><description>
+&lt;p>Beta 3.1 has been released!&lt;/p>
+&lt;p>This update introduces a notes system, translation support and improves the UI.&lt;br>
+Custom Qt-StyleSheets are supported as well.&lt;/p>
+&lt;p>It also introduces the concept of addons for specific rpg systems.&lt;br>
+This feature is still under development and will have more features in the future.&lt;br>
+Currently there are two addons available:&lt;/p>
+&lt;ul>
+&lt;li>DSA5 (The Dark Eye, though currently only available in German)&lt;/li>
+&lt;li>SIFRP (A Song of Ice and Fire Roleplaying)&lt;/li>
+&lt;/ul>
+&lt;p>Official addons for other systems will be available in the future and there will also be an Addon-Creator for you to create your own addons.&lt;/p>
+&lt;p>Addons can add system specific units to the unit converter, notes and the SIFRP addon enables a SIFRP House Generator.&lt;br>
+Again, this will change in future updates.&lt;br>
+Addons can be installed with the AddonManager via the new &amp;ldquo;Options&amp;rdquo; window.&lt;br>
+The AddonManager is written in Java and also WIP.&lt;/p>
+&lt;p>I no longer provide a .deb package to install the GM-Companion on Ubuntu systems, use the Launchpad repository instead.&lt;br>
+I figured out how to let the program build from git, which allows me to provide the GM-Companion for amd64 systems from Ubuntu 16.10 upwards.&lt;br>
+Older versions are unfortunately not supported, as well as 32-bit systems, though that might be possible in the future.&lt;/p></description></item><item><title>Blog: Released Beta 3.0.1</title><link>https://gm-companion.github.io/blog/2017-05-25-fix-0-3-0-1/</link><pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2017-05-25-fix-0-3-0-1/</guid><description>
+&lt;p>This version fixes a path issue under Windows and some minor bugs.&lt;/p>
+&lt;p>The name generator was broken when using a windows installer.&lt;br>
+Also the blog was not shown correctly, it always scrolled down to the first post.&lt;br>
+The window size of the Linux version was glitchy so I fixed that as well. Though I know there is still a bug with screen resolutions
+smaller than 1920x1080 but I still do not know what causes it. Maybe I can fix those issues in the next version.&lt;/p></description></item><item><title>Blog: Ubuntu Repository is Here!</title><link>https://gm-companion.github.io/blog/2017-05-24-ubuntu-repository-is-here/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2017-05-24-ubuntu-repository-is-here/</guid><description>
+&lt;p>I finally did it.&lt;/p>
+&lt;p>Ok I know. I said it would take some time until the GM-Companion is released as a source package in a repository for GNU/Linux systems.&lt;br>
+But investing so much time in trying to do it and then giving up was somehow not acceptable for me.
+So I simply invested even more time and now finally it is here. At least for Ubuntu 17.04 amd64 systems. I proudly present:&lt;br>
+&lt;em>ppa:rophil/gm-companion&lt;/em>&lt;/p>
+&lt;p>To add it to your system, open the terminal and type&lt;br>
+&lt;em>sudo add-apt-repository ppa:rophil/gm-companion&lt;/em>&lt;br>
+Then to install the program type&lt;br>
+&lt;em>sudo apt-get update&lt;/em>&lt;br>
+This updates the list of available software, so that the GM-Companion is available.&lt;br>
+&lt;em>sudo apt-get install gm-companion&lt;/em> Should install the program.&lt;/p>
+&lt;p>To start it, simply type &lt;em>gm-companion&lt;/em> in the terminal and everything should (!) work.&lt;br>
+Maybe it does not. If it doesn&amp;rsquo;t please open a GitHub Issue and report the problem.&lt;/p>
+&lt;p>If &lt;em>sudo apt-get update&lt;/em> leads to an error regarding the public key, visit the wiki installation page.&lt;br>
+I will add a possible solution there.&lt;/p></description></item><item><title>Blog: Beta 3.0 Released!</title><link>https://gm-companion.github.io/blog/2017-05-22-beta-3-0-released/</link><pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2017-05-22-beta-3-0-released/</guid><description>
+&lt;p>Beta 3.0 has just been released!&lt;/p>
+&lt;p>It can be downloaded from &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/releases/tag/0.3.0.0">here&lt;/a>.&lt;br>
+It is now possible to use an installer for the Windows version and it is available for 32 bit or 64 bit systems.&lt;br>
+But for those of you who don&amp;rsquo;t want to install it, downloading a .zip for running the program without installation is also possible.&lt;/p>
+&lt;p>Unfortunately GNU/Linux users currently don&amp;rsquo;t have that choice. I was just not able to create a working .deb package for a simple installation.&lt;br>
+That does not mean there won&amp;rsquo;t be one in the future but because I am still new to developing for Linux systems that will take some time&amp;hellip;&lt;br>
+I hope that one day there will be a repository to install it via apt-get.&lt;br>
+Until that day you will have to use the .tar.gz package, extract it and run the &amp;ldquo;gm-companion&amp;rdquo; runtime.&lt;br>
+I will post more detailed instructions to the &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/wiki/Installation">wiki&lt;/a>.&lt;/p>
+&lt;p>With the change from Java to Qt5/C++ I am unfortunately no longer able to provide a version for &amp;ldquo;Mac OS X&amp;rdquo; Systems, as I don&amp;rsquo;t own such a device.&lt;/p>
+&lt;p>Anyways, I hope you enjoy this version of the &amp;ldquo;GM-Companion&amp;rdquo;!&lt;br>
+And if you do indeed find a bug, click &lt;em>Help-&amp;gt;Report a Bug&lt;/em> and it will take you to the &amp;ldquo;Issues&amp;rdquo; page of the GitHub repository where you can describe your problem.&lt;br>
+I will try to fix it as soon as possible.&lt;/p></description></item><item><title>Blog: Beta 3.0 Coming Soon!</title><link>https://gm-companion.github.io/blog/2017-05-21-beta-3-0-release-coming-soon/</link><pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/blog/2017-05-21-beta-3-0-release-coming-soon/</guid><description>
+&lt;p>Expect beta 3.0 to be released in the next days!&lt;/p>
+&lt;p>We are currently testing the second release candidate of beta 3.0 and I am working on the linux port.&lt;br>
+If there are no major bugs that require fixing, the new version should be out tomorrow or the day after.&lt;/p>
+&lt;p>Since the program was completely rewritten since beta 2.9.1 the new version should be way more performance efficient.&lt;br>
+Also you can expect some cool new features like a name generator or a character overview.&lt;/p>
+&lt;p>I am also working on updating the wiki but to be honest, that is really time consuming and could take some days as releasing the new version has a higher priority.&lt;/p></description></item></channel></rss>
