@@ -10,29 +10,28 @@ defaultContentLanguageInSubdir = false
 [languages]
 [languages.en]
 contentDir = "content/en"
-description = "User Documentation"
 languageName = "English"
 weight = 1
+[languages.en.params]
+description = "User Documentation"
 
 # [languages.de]
-# description = "Docsy er operativsystem for skyen"
+# description = "Dokumentation"
 # languageName ="Deutsch"
 # contentDir = "content/de"
-# time_format_default = "02.01.2006"
-# time_format_blog = "02.01.2006"
 
 [params]
 copyright = "GM-Companion"
 privacy_policy = ""
 
-archived_version = false
-version = "v1.1.0"
-version_menu = "Version"
-version_menu_pagelinks = true
-url_latest_version = "https://gm-companion.github.io"
+# archived_version = false
+# version = "v1.1.0"
+# version_menu = "Version"
+# version_menu_pagelinks = true
+# url_latest_version = "https://gm-companion.github.io"
 
-[[params.versions]]
-version = "v1.1.0"
+# [[params.versions]]
+# version = "v1.1.0"
 # url = ""
 
 # [[params.versions]]
@@ -88,7 +87,7 @@ weight = 2
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.75.0"
+min = "0.110.0"
 [[module.imports]]
 disable = false
 path = "github.com/google/docsy"
