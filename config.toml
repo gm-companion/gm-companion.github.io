@@ -24,20 +24,6 @@ description = "User Documentation"
 copyright = "GM-Companion"
 privacy_policy = ""
 
-# archived_version = false
-# version = "v1.1.0"
-# version_menu = "Version"
-# version_menu_pagelinks = true
-# url_latest_version = "https://gm-companion.github.io"
-
-# [[params.versions]]
-# version = "v1.1.0"
-# url = ""
-
-# [[params.versions]]
-# version = "dev"
-# url = "https://dev.gm-companion.github.io"
-
 github_branch = "master"
 github_project_repo = "https://github.com/philinthegaps/gm-companion"
 github_repo = "https://github.com/gm-companion/gm-companion.github.io"
@@ -47,9 +33,9 @@ breadcrumb_disable = false # Set to true to disable breadcrumb navigation.
 footer_about_disable = false # Set to true to disable the About link in the site footer
 navbar_logo = false 
 navbar_translucent_over_cover_disable = true # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
-sidebar_menu_compact = true # Enable to show the side bar menu in its compact state.
-sidebar_menu_foldable = false # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-sidebar_search_disable = true 
+sidebar_menu_compact = false # Enable to show the side bar menu in its compact state.
+sidebar_menu_foldable = true
+sidebar_search_disable = true # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 
 [params.ui.feedback]
 enable = false
