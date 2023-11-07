@@ -1,34 +1,33 @@
 ---
 title: Getting Started
-weight: 1
+description: "All you need to start using the application"
+weight: 2
 ---
 
-{{% pageinfo color="primary" %}}
+{{% alert color="primary" %}}
 If you have not yet installed the application, visit [this page](/docs/install) first.
-{{% /pageinfo %}}
+{{% /alert %}}
 
 ## Audio Tool
 
 - Go to settings, set path of music and sound files
 - Open audio editor, create new project
 - Add a category and a scenario
-- Create an element, add music/sound files, radio playlist file or URL
-- Optionally create a thumbnail image, place it in your resources path, add image to element
+- Create an element, add music/sound files
 
 [See the full documentation](/docs/tools/audio)
 
 ### Spotify
 
+{{% alert color="primary" %}}
+The Spotify integration requires you to have a Spotify Premium account.
+{{% /alert %}}
+
 Using Spotify with GM-Companion requires some additional steps first:
 
-- Go to [Spotify developer page](https://developer.spotify.com/dashboard)
-- "Create an App"
-- In app settings add _http://127.0.0.1:59991/_ as a redirect URI
-- Go to GM-Companion settings, add "Client ID" and "Client Secret" of your app
-- Restart GM-Companion
-- You can now add Spotify playlists and albums as elements, the "_Audio Addon_" has some great RPG related playlists. You can add by adding a Spotify element and pressing "_Add from Addons_"
-
-Note that playing Spotify playlists requires the Spotify app running in the background.
+- Go to `Settings -> Accounts -> Spotify`
+- Enter your username and password
+- Click `Connect`
 
 [See the full documentation](/docs/tools/audio#spotify)
 
@@ -44,6 +43,6 @@ Note that playing Spotify playlists requires the Spotify app running in the back
 
 - Open your characters folder (see "Paths" settings)
 - Create a new folder and name it after the character
-- Place images of the character sheet inside
+- Place PDF or images of the character sheet inside
 
 [See the full documentation](/docs/tools/characters)
