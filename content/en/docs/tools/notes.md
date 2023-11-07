@@ -1,38 +1,47 @@
 ---
 title: Notes
-subtitle:
+description: Note keeping tool with Markdown syntax and PDF export.
 ---
 
-This tool allows you to take some quick notes during a session or simply to have all your story notes in one place.
+![Screenshot of notes tool in editing mode](/images/notes-tool-01.webp)
 
-![](/images/notes-tool-01.png)
+![Screenshot of notes tool in reading mode](/images/notes-tool-02.webp)
 
+## Books and Chapters
 
-## Chapters
+Books and chapters are actually folders inside your configured notes folder.  
+The only difference is that books are the top level folders.
 
-Chapters are actually folders inside your notes folder.  
-A chapter can store multiple note pages.
+A book/chapter can contain more chapters and multiple note pages.
 
-To add a chapter, click the "+" and select _Chapter_ in the combo-box.  
-Enter the title in the text field and click "Ok".  
-
-To remove a chapter, select it via the combo-box. Then press and hold the trash-bin icon.  
-Warning: This will also delete all pages inside it!
+To add a new book, press the "New Notebook" button, set a name and press enter.
+Chapters can be added by right-clicking books or chapters and selecting "New Chapter".
 
 ## Pages
 
 Notes are textfiles stored inside chapters.  
-A note must belong to a chapter.
+A note must always belong to a chapter or a book.
 
-Click the "+", select _Page_ and enter the name to create a new one.
+Pages can be added by right-clicking books or chapters and selecting "New Page".
+If you don't add a file extension, `.md` is used.
 
-Pages don't have to be saved, everytime the page is edited it saves automatically.  
-To delete a page, select it and hold the trash-bin icon in the sidebar for a few seconds.
+### Markdown
+
+Markdown is a simple markup language. If you have never heard about it, have a look at [this guide](https://www.markdownguide.org/).
+
+By clicking the eye/pen icon you can switch between editing and reading mode.
+
+### PDF Export
+
+Pages can also be exported as PDFs.
+
+To do that, switch into reading mode and press the "PDF" button. The document will be placed next to the markdown file in the file system.
 
 ## Encryption
 
 The "Encrypt Page" button encrypts the current note using the "rot13" method.  
-This method is not a save encryption method as it only replaces every letter by the one at the current alphabetic index + 13.  
-This means that encrypting the encrypted note again restores the original one.
+This method is not a cryptographically safe encryption method as it only replaces every letter by the one at the current alphabetic index + 13, so that encrypting the encrypted note again restores the original content.
 
-The idea behind this feature is to prevent others from accidentally reading your notes and spoil themselves, if for example the laptop used by the gamemaster is not actually owned by him but by a player.
+The idea behind this feature is to prevent others from accidentally reading your notes.
+
+![Screenshot of notes tool in reading mode (encrypted)](/images/notes-tool-03.webp)
