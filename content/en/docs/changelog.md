@@ -1,50 +1,60 @@
 ---
 title: Changelog
+description: "A list of all the changes for each version"
 weight: 1000
 ---
 
-<!--
 ## Release 1.2.0
+
 - **Additions**
-	- Tools can now be switched to via hotkey (Ctrl+Number)
-	- Audio Tool
-		- Added mpris media controls on Linux
-		- Added function to search for elements
-		- Added subscenarios for more structured audio projects
-		- Added support for single Spotify tracks in audio elements
-		- Added support for audio from YouTube videos in audio elements
-		- Added automatic thumbnail generation for audio elements
-	- Map Tool
-		- Added map markers
-	- Combat Tracker
-		- Added option to delay a turn
-
+  - General
+    - Tools can now be switched to via hotkey (Ctrl+Number)
+    - Added Nextcloud integration
+    - Added a new dialog that show warnings and errors
+    - Addons can now be installed from repositories
+  - Audio Tool
+    - Added MPRIS media controls on Linux
+    - Added function to search for elements
+    - Added sub-scenarios for more structured audio projects
+    - Added support for single Spotify tracks in audio elements
+    - Added automatic thumbnail generation for audio elements
+  - Combat Tracker
+    - Added option to delay a turn
+    - Added auto saves to prevent data loss in case of a crash
+  - Map Tool
+    - Added map markers
+  - Character Tool
+    - PDFs are now also supported on Windows
+  - Name Generator
+    - Added support for more name categories, prefixes and suffixes
+  - Notes Tool
+    - Added Markdown support
+    - Added PDF export
 - **Improvements**
-	- Improved list header color in dark UI style
-	- Audio Tool
-		- Removed Spotify elements, instead Spotify playlists/albums/songs can now be added to normal music lists
-		- Elements can now have images from the web as thumbnails
-		- Thumbnails can be chosen from an unsplash.com collection via dialog
-		- UI improvements
-		- Projects, categories and scenarios can now be deleted
-		- Spotify does not require an official client anymore, [librespot](https://github.com/librespot-org/librespot) is used instead
-	- Map Tool
-		- Zooming no longer centers the image
-		- Zoom steps are now smaller, added slider
-		- Maps can now be selected even if the preview image is still loading
+  - General
+    - Various UI improvements
+	- Cloud file sources are now supported by every tool
+  - Audio Tool
+    - Removed Spotify elements, instead Spotify playlists/albums/songs can now be added to normal music lists
+    - Elements can now have images from the web as thumbnails
+    - Thumbnails can be chosen from an unsplash.com collection via a dialog
+    - Projects, categories and scenarios can now be deleted
+    - Spotify does not require an official client anymore, [librespot](https://github.com/librespot-org/librespot) is used instead
+  - Map Tool
+    - Zooming no longer centers the image
+    - Zoom steps are now smaller, added slider
+    - Maps can now be selected even if the preview image is still loading
   - External Services
-    - The Spotify access key is now retrieved from a server. This means you don't have to generate a client id and secret in the Spotify developer console. Though that is still an alternative. Also you can host [the server](https://github.com/philinthegaps/gm-companion-backend) yourself if you want.
-    - GoogleDrive integration now works for **all** tools
-
+    - The Spotify access key can now be retrieved from a server. This means you don't have to generate a client id and secret in the Spotify developer console. Though that is still an alternative. Also you can host [the server](https://github.com/gm-companion/gm-companion-backend) yourself if you want.
 - **Fixes**
-	- Fixed broken info links
-	- Fixed element image breaking when file cannot be found, uses default image now
-	- Fixed a crash in audio editor when checking for missing files
-	- Fixed audio elements not having a mode set by default
-	- Fixed bug where the first file in an audio element could not be deleted
-	- Fixed Sotify elements needing to be selected a second time to play
-	- Fixed GoogleDrive integration not working
--->
+  - Fixed a lot of crashes
+  - Fixed broken info links
+  - Fixed element image breaking when file cannot be found, uses default image now
+  - Fixed audio elements not having a mode set by default
+  - Fixed bug where the first file in an audio element could not be deleted
+  - Fixed Spotify elements needing to be selected a second time to play
+- **Removed**
+  - Temporarily (?) removed GoogleDrive integration
 
 ## Release 1.1.0
 - **Additions**
