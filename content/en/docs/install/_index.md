@@ -1,7 +1,32 @@
 ---
 title: Install
-simple_list: true
-weight: 2
+description: "How to install the application"
+no_list: true
+weight: 1
 ---
 
-See one of the following pages for installation instructions:
+Currently only Linux and Windows (x86_64) are supported, but you can always try to [build from source](/docs/install/from-source).
+
+## Windows
+
+[Release 1.2.0 (x86_64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.0/gm-companion_1.2.0_win64.zip)  
+
+The program works without an installer. Simply extract all the files from the .zip archive to a folder and run _gm-companion.exe_.
+
+## Linux
+
+If your favorite OS is not listed below, then the AppImage is recommended.
+
+You can of course always [build from source](/docs/install/from-source).
+
+### Generic
+
+[AppImage (amd64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.0/gm-companion-1.2.0_amd64.AppImage)  
+
+### Arch Linux
+
+Install from [AUR](https://aur.archlinux.org/packages/gm-companion/):
+
+```
+yay -S gm-companion
+```
