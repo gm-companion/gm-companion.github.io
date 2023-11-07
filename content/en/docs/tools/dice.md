@@ -1,14 +1,12 @@
 ---
 title: Dice
-subtitle:
+description: Roll some dice. Pretty much self-explanatory.
 ---
 
-![](/images/dice-tool-01.png "Screenshot of the map tool")
+![Screenshot of the dice tool](/images/dice-tool-01.webp)
 
-The dice tool is pretty much self-explanatory.  
-Select dice by clicking on an icon or enter a custom amount of sides in the spinbox.  
+Select dice by clicking on an icon or choose a custom amount of sides using the spinbox.  
 You can also roll multiple dice at once and / or add a modifier. These modifiers can be positive or negative and are added to the resulting roll.
-
 
 ## Example
 _3D6+4_  
@@ -39,4 +37,4 @@ Result: 18
 The dice tool can indicate criticals by displaying the result in a different color than usual (green for success, red for failure, orange for mixed result).  
 You can enable / disable this feature and also set what kind of results should count as a crit, either min / max result or fixed values.
 
-![](/images/dice-tool-02.png)
+![Screenshot of dice tool settings](/images/dice-tool-02.webp)
