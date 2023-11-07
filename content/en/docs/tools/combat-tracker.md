@@ -1,14 +1,21 @@
 ---
 title: Combat Tracker
+description: Keep track of combat order, enemy health and more.
 ---
 
-![](/images/combat-tracker-01.png)
+![Screenshot of combat tracker](/images/combat-tracker-01.webp)
 
-The combat tracker allows you to have to have an overview in combat situations.  
-You can easily see the name, initiative, health and the status of the combatants and who's turn it is.
+### Sorting
 
-### Dice
+Entries are sorted by their initiative value (highest first).
+If two or more entries have the same value, their priority is used (again, highest value first).
 
-![](/images/combat-tracker-02.png)
+### Delay Turn
+
+The "delay turn" button can be used to move an entry to the end of the queue for this round. This will be reset when a new round starts.
+
+## Dice
+
+![Screenshot of combat tracker with dice](/images/combat-tracker-02.webp)
 
 The combat tracker has a built in version of the [dice tool](/docs/tools/dice).
