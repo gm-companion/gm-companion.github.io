@@ -1,32 +1,25 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Tools</title><link>https://gm-companion.github.io/docs/tools/</link><description>Recent content in Tools on GM-Companion</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://gm-companion.github.io/docs/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Audio</title><link>https://gm-companion.github.io/docs/tools/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/audio/</guid><description>
-&lt;p>This chapter is about using the audio tool to play music, sounds, webradios or spotify playlists from an audio project. For instructions on how to create a project please refer to the &lt;a href="#audio-editor">Audio Editor chapter&lt;/a>.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-tool-01.png" alt="" title="Screenshot of the audio tool">&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Tools</title><link>https://gm-companion.github.io/docs/tools/</link><description>Recent content in Tools on GM-Companion</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Audio</title><link>https://gm-companion.github.io/docs/tools/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/audio/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-tool-01.webp" alt="Screenshot of the audio tool">&lt;/p>
 &lt;h2 id="audio-projects">Audio Projects&lt;/h2>
-&lt;p>Audio project files are located in your &amp;ldquo;Audio Projects&amp;rdquo; path, by default &lt;em>&amp;hellip;/your-home-directory**/.gm-companion/audio**&lt;/em>&lt;/p>
-&lt;h3 id="opening-audio-projects">Opening Audio Projects&lt;/h3>
-&lt;p>Use the project combo box on the left to select a project.&lt;br>
-It will open automatically.&lt;/p>
+&lt;p>Audio project files are located in your audio path, by default &lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/audio&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>They can contain music playlists&lt;/p>
 &lt;h3 id="creating--editing-audio-projects">Creating / Editing Audio Projects&lt;/h3>
-&lt;p>Projects can be created and edited in the Editor.
+&lt;p>Projects can be created and edited using the Editor.
 For more information about it see the &lt;a href="#audio-editor">Audio Editor&lt;/a> section.&lt;/p>
 &lt;h2 id="audio-controls">Audio Controls&lt;/h2>
-&lt;h3 id="playing-an-element">Playing an Element&lt;/h3>
 &lt;p>To play an element select a category first. This will display a list of all the available scenarios. Select the scenario you want.&lt;/p>
 &lt;p>If a music element (music list or radio) is already playing and you want to pause it, click pause.&lt;br>
 To stop a sound list from playing simply click the button that represents the sound in the sidebar.&lt;/p>
-&lt;p>Note that while you can only play one music list, radio or Spotify playlist at a time, you can play as many sound lists as you want.&lt;br>
-Starting a music list stops the currently playing radio and vice versa. Music lists, radios and Spotify playlists cannot be played at the same time.&lt;/p>
-&lt;h3 id="changing-the-current-song">Changing the current song&lt;/h3>
-&lt;p>Click the &amp;ldquo;Next&amp;rdquo; button to switch to the next song in a music list.&lt;br>
-If you want to switch to a specific song select one in the playlist. (You might have to open the sidebar for that.)&lt;/p>
-&lt;h1 id="audio-editor">Audio Editor&lt;/h1>
-&lt;p>The Audio Editor can be used to create and edit projects for the &lt;a href="#audio-tool">Audio Tool&lt;/a>.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-editor-01.png" alt="" title="Screenshot of the audio editor">&lt;/p>
-&lt;h2 id="project-structure">Project Structure&lt;/h2>
+&lt;p>Note that while you can only play one music list or radio at a time, you can play as many sound lists as you want.&lt;br>
+Starting a music list stops the currently playing radio and vice versa.&lt;/p>
+&lt;h2 id="audio-editor">Audio Editor&lt;/h2>
+&lt;p>The Audio Editor can be used to create and edit audio projects.&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-editor-01.webp" alt="Screenshot of the audio editor">&lt;/p>
+&lt;h3 id="project-structure">Project Structure&lt;/h3>
 &lt;p>Projects consist of categories, scenarios and &lt;a href="#elements">elements&lt;/a>.&lt;br>
-If, for example, your project is named &amp;ldquo;&lt;strong>Pen&amp;amp;Paper&lt;/strong>&amp;rdquo; a possible project structure could be the following:&lt;/p>
+If, for example, your project is named &amp;ldquo;&lt;strong>Demo Project&lt;/strong>&amp;rdquo; a possible project structure could be the following:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Pen&amp;amp;Paper&lt;/strong> (Project Name)
+&lt;li>&lt;strong>Demo Project&lt;/strong> (Project Name)
 &lt;ul>
 &lt;li>&lt;strong>Fantasy&lt;/strong> (Category)
 &lt;ul>
@@ -70,22 +63,22 @@ If, for example, your project is named &amp;ldquo;&lt;strong>Pen&amp;amp;Paper&l
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="elements">Elements&lt;/h3>
-&lt;p>There are the following types of elements available:&lt;/p>
-&lt;p>Offline:&lt;/p>
+&lt;h4 id="elements">Elements&lt;/h4>
+&lt;p>The following types of elements are available:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#music-lists">Music Lists&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#webradios">Webradios&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#sound-lists">Sound Lists&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Streaming:&lt;/p>
+&lt;p>All elements can be customized with icons. For further explanations see the &lt;a href="#resources">resources&lt;/a> section.&lt;/p>
+&lt;h5 id="music-lists">Music Lists&lt;/h5>
+&lt;p>Music lists consist of one ore more audio files from one of the following sources:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="#webradios">Webradios&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#spotify">Spotify Playlists&lt;/a>&lt;/li>
+&lt;li>Local mp3, ogg, etc file&lt;/li>
+&lt;li>URL pointing to a file on the internet&lt;/li>
+&lt;li>Spotify (track, album, playlist)&lt;/li>
 &lt;/ul>
-&lt;p>All elements can be customized with icons. For further explainations see the &lt;a href="https://gm-companion.github.io/docs/tools/audio/resources">&lt;strong>resources&lt;/strong>&lt;/a> page.&lt;/p>
-&lt;h4 id="music-lists">Music Lists&lt;/h4>
-&lt;p>Only one music list can be played at a time. Music lists cannot be played together with webradios or Spotify playlists.&lt;br>
-They can have one of the following playback modes:&lt;/p>
+&lt;p>They can have one of the following playback modes:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Shuffle List&lt;/strong>&lt;br>
 All songs are shuffled randomly when the playlist is started. All songs are played once before starting from the beginning.&lt;/li>
@@ -96,85 +89,102 @@ List is played in sequential order and starts again from the beginning when end 
 &lt;li>&lt;strong>Sequential Order&lt;/strong>&lt;br>
 List is played in sequential order. Stops when end is reached.&lt;/li>
 &lt;/ul>
-&lt;h4 id="sound-lists">Sound Lists&lt;/h4>
-&lt;p>Multiple sound lists can be played at the same time. They can also be played together with music lists, webradios or Spotify playlists.&lt;br>
-They can have one of the following playback modes:&lt;/p>
+&lt;h6 id="spotify">Spotify&lt;/h6>
+&lt;div class="alert alert-primary" role="alert">
+The Spotify integration requires you to have a Spotify Premium account.
+&lt;/div>
+&lt;p>You can add tracks, albums and playlists to a music list using one of the following formats:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Shuffle List&lt;/strong>&lt;br>
-All sounds are shuffled randomly when the playlist is started. All sounds are played once before starting from the beginning.&lt;/li>
-&lt;li>&lt;strong>Random Mode&lt;/strong>&lt;br>
-Sounds are played in a truly random order. It is possible that a few sounds are played more often than others.&lt;/li>
-&lt;li>&lt;strong>Loop List&lt;/strong>&lt;br>
-List is played in sequential order and starts again from the beginning when end is reached.&lt;/li>
-&lt;li>&lt;strong>Sequential Order&lt;/strong>&lt;br>
-List is played in sequential order. Stops when end is reached.&lt;/li>
+&lt;li>Spotify URI: &lt;code>spotify:album:0SHWgw0LPDs37Go6oPdaqp&lt;/code>&lt;/li>
+&lt;li>Spotify Link: &lt;code>https://open.spotify.com/album/0SHWgw0LPDs37Go6oPdaqp&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="webradios">Webradios&lt;/h4>
-&lt;p>Webradios cannot be played together with music lists or Spotify playlists.&lt;br>
-There are two types of radios supported:&lt;/p>
+&lt;p>&lt;strong>Setup&lt;/strong>&lt;/p>
+&lt;p>You can either connect using the default backend server, a custom server or using a local client.
+For more information about the backend see &lt;a href="https://gm-companion.github.io/docs/backend">this page&lt;/a>.&lt;/p>
+&lt;p>Default Server:&lt;/p>
+&lt;ol>
+&lt;li>Go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>Custom Server:&lt;/p>
+&lt;ol>
+&lt;li>Go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Choose &amp;ldquo;custom server&amp;rdquo; and enter URL&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>Local Client:&lt;/p>
+&lt;ol>
+&lt;li>Register a Spotify app as a developer:
+&lt;ol>
+&lt;li>Go to &lt;a href="https://developer.spotify.com/dashboard/">the Spotify developer dashboard&lt;/a> and click &lt;em>&amp;ldquo;Create a Client ID&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Do all the steps and register a new spotify application. The app name and description are not important.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Set Redirect URLs:
+&lt;ol>
+&lt;li>Click on your newly registered application and click &lt;em>&amp;ldquo;Edit Settings&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Add &lt;code>http://127.0.0.1:59991/&lt;/code> as a redirect url and save the settings.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Get the Client ID and Secret
+&lt;ol>
+&lt;li>Click &lt;em>&amp;ldquo;Show Client Secret&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Open the GM-Companion and in the settings page enter your &lt;strong>Client ID&lt;/strong> and &lt;strong>Client Secret&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Open GM-Companion and go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Enter your client id and client secret&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h5 id="sound-lists">Sound Lists&lt;/h5>
+&lt;p>Sound lists consist of one ore more audio files from one of the following sources:&lt;/p>
+&lt;ul>
+&lt;li>Local mp3, ogg, etc file&lt;/li>
+&lt;li>URL pointing to a file on the internet&lt;/li>
+&lt;/ul>
+&lt;p>Multiple sound lists can be played at the same time.&lt;/p>
+&lt;p>Playback modes are the same as for music lists.&lt;/p>
+&lt;h5 id="webradios">Webradios&lt;/h5>
+&lt;p>There are two types of radios supported:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Stream&lt;/strong>&lt;br>
-Radios can be streamed directly from an URL.&lt;br>
-Example: &lt;em>&lt;a href="http://radiorivendell.ddns.net:8000/128kbit.mp3">http://radiorivendell.ddns.net:8000/128kbit.mp3&lt;/a>&lt;/em>&lt;/li>
+Radios can be streamed directly from a URL.&lt;br>
+Example: &lt;em>&lt;a href="https://play.radiorivendell.com/radio/8000/radio.mp3">https://play.radiorivendell.com/radio/8000/radio.mp3&lt;/a>&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Playlist Files&lt;/strong>&lt;br>
-Playlist files can be used by switching to &lt;em>Local Mode&lt;/em>.&lt;br>
-They are stored in the &lt;em>Radios&lt;/em> directory (by default &lt;em>/your/home**/.gm-companion/radios**&lt;/em>). Both &lt;strong>&lt;em>.m3u&lt;/em>&lt;/strong> and &lt;strong>&lt;em>.pls&lt;/em>&lt;/strong> playlists are supported.&lt;/li>
+They are stored in the &lt;em>Radios&lt;/em> directory (by default &lt;em>/your/home/&lt;strong>.gm-companion/radios&lt;/strong>&lt;/em>). Both &lt;strong>&lt;em>.m3u&lt;/em>&lt;/strong> and &lt;strong>&lt;em>.pls&lt;/em>&lt;/strong> playlists are supported.&lt;/li>
 &lt;/ol>
-&lt;h4 id="spotify">Spotify&lt;/h4>
-&lt;p>Because of the way the new Spotify API works, the GM-Companion is only able to control a Spotify application running in the background. Direct playback of Spotify content is not supported.&lt;br>
-Because there is no server backend for the GM-Companion Spotify authorization can only be done by having access to a developer Client ID and a Client Secret Key.&lt;/p>
-&lt;p>How to use Spotify in the GM-Companion:&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Register a Spotify app as a developer&lt;/strong>&lt;br>
-Go to &lt;a href="https://developer.spotify.com/dashboard/">the Spotify developer dashboard&lt;/a> and click &lt;em>&amp;ldquo;Create a Client ID&amp;rdquo;&lt;/em>&lt;br>
-Do all the steps and register a new spotify application. The app name and description are not important.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Set Redirect URLs&lt;/strong>&lt;br>
-Click on your newly registered application and click &lt;em>&amp;ldquo;Edit Settings&amp;rdquo;&lt;/em>.&lt;br>
-Add &lt;em>http://127.0.0.1:59991/&lt;/em> as a redirect url and save the settings.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Get the Client ID and Secret&lt;/strong>&lt;br>
-Click &lt;em>&amp;ldquo;Show Client Secret&amp;rdquo;&lt;/em>.&lt;br>
-Open the GM-Companion and in the settings page enter your &lt;strong>Client ID&lt;/strong> and &lt;strong>Client Secret&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Start a Spotify client&lt;/strong>&lt;br>
-Due to restrictions in the API the GM-Companion cannot play Spotify playlists directly, only control an official Spotify client.&lt;br>
-Open the Spotify app or desktop program and play a song to set it as your active spotify client.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Add a Spotify playlist (or album)&lt;/strong>&lt;br>
-Currently only playback of playlists or albums is supported.&lt;br>
-Use the editor to add a new Spotify playlist element. The chosen name is not important.&lt;br>
-Enter a valid Spotify URI. This can be either a playlist or album URI and can be obtained in the Spotify client.&lt;br>
-Find a playlist or album you want to use, click &lt;em>Share&lt;/em> and then &lt;em>Copy Spotify URI&lt;/em>. The URI looks something like this:&lt;br>
-&lt;strong>Playlist:&lt;/strong> spotify:user:radiorivendell:playlist:422FnvL2Q92mvDfzeIlyiW&lt;br>
-&lt;strong>Album:&lt;/strong> spotify:album:0SHWgw0LPDs37Go6oPdaqp&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>Note: If you don&amp;rsquo;t select a custom local thumbnail, it will be fetched from Spotify.&lt;/p></description></item><item><title>Docs: Characters</title><link>https://gm-companion.github.io/docs/tools/characters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/characters/</guid><description>
-&lt;p>The character tool allows you to view the character sheets of your players.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/character-tool-01.png" alt="">&lt;/p>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;p>The resources folder contains custom thumbnails for audio elements.&lt;/p>
+&lt;p>By default the folder is located here:&lt;br>
+&lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/resources&lt;/strong>&lt;/em>&lt;/p></description></item><item><title>Docs: Characters</title><link>https://gm-companion.github.io/docs/tools/characters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/characters/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/character-tool-01.webp" alt="Screenshot of the character tool">&lt;/p>
 &lt;h2 id="adding-characters">Adding Characters&lt;/h2>
 &lt;ol>
 &lt;li>Go to the &lt;em>characters&lt;/em> directory. (By default &lt;em>/your/home/&lt;strong>.gm-companion/characters&lt;/strong>)&lt;/em>&lt;/li>
-&lt;li>Create a new folder with the name of the character you want to add, for example: &lt;em>Frank Lightspeed&lt;/em>&lt;/li>
-&lt;li>Copy images of the character sheet pages to that folder and give them descriptive names. An example could be &lt;em>1 - Skills&lt;/em>, &lt;em>2 - Equipment&lt;/em> &amp;hellip;&lt;br>
-I recomment putting the page numbers first because inside the character tool the pages will be sorted in alphabetical order.&lt;/li>
+&lt;li>Add character sheet (one of the following)
+&lt;ol>
+&lt;li>Put a PDF file into the folder&lt;/li>
+&lt;li>Create a new folder with the name of the character you want to add, for example: &lt;em>Frank Lightspeed&lt;/em>.
+Put images of the character sheet pages to that folder and give them descriptive names.&lt;br>
+An example could be &lt;em>1 - Skills&lt;/em>, &lt;em>2 - Equipment&lt;/em> &amp;hellip;&lt;br>
+Putting the page numbers first is recommended because inside the character tool the pages will be sorted in alphabetical order.&lt;/li>
 &lt;/ol>
-&lt;p>On Linux PDFs are supported as well. Simply put a character sheet PDF in the &lt;em>characters&lt;/em> directory.&lt;/p></description></item><item><title>Docs: Combat Tracker</title><link>https://gm-companion.github.io/docs/tools/combat-tracker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/combat-tracker/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-01.png" alt="">&lt;/p>
-&lt;p>The combat tracker allows you to have to have an overview in combat situations.&lt;br>
-You can easily see the name, initiative, health and the status of the combatants and who&amp;rsquo;s turn it is.&lt;/p>
-&lt;h3 id="dice">Dice&lt;/h3>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-02.png" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Combat Tracker</title><link>https://gm-companion.github.io/docs/tools/combat-tracker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/combat-tracker/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-01.webp" alt="Screenshot of combat tracker">&lt;/p>
+&lt;h3 id="sorting">Sorting&lt;/h3>
+&lt;p>Entries are sorted by their initiative value (highest first).
+If two or more entries have the same value, their priority is used (again, highest value first).&lt;/p>
+&lt;h3 id="delay-turn">Delay Turn&lt;/h3>
+&lt;p>The &amp;ldquo;delay turn&amp;rdquo; button can be used to move an entry to the end of the queue for this round. This will be reset when a new round starts.&lt;/p>
+&lt;h2 id="dice">Dice&lt;/h2>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-02.webp" alt="Screenshot of combat tracker with dice">&lt;/p>
 &lt;p>The combat tracker has a built in version of the &lt;a href="https://gm-companion.github.io/docs/tools/dice">dice tool&lt;/a>.&lt;/p></description></item><item><title>Docs: Dice</title><link>https://gm-companion.github.io/docs/tools/dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/dice/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-01.png" alt="" title="Screenshot of the map tool">&lt;/p>
-&lt;p>The dice tool is pretty much self-explanatory.&lt;br>
-Select dice by clicking on an icon or enter a custom amount of sides in the spinbox.&lt;br>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-01.webp" alt="Screenshot of the dice tool">&lt;/p>
+&lt;p>Select dice by clicking on an icon or choose a custom amount of sides using the spinbox.&lt;br>
 You can also roll multiple dice at once and / or add a modifier. These modifiers can be positive or negative and are added to the resulting roll.&lt;/p>
 &lt;h2 id="example">Example&lt;/h2>
 &lt;p>&lt;em>3D6+4&lt;/em>&lt;/p>
@@ -208,91 +218,94 @@ Result: 18&lt;/p>
 &lt;h2 id="settings">Settings&lt;/h2>
 &lt;p>The dice tool can indicate criticals by displaying the result in a different color than usual (green for success, red for failure, orange for mixed result).&lt;br>
 You can enable / disable this feature and also set what kind of results should count as a crit, either min / max result or fixed values.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-02.png" alt="">&lt;/p></description></item><item><title>Docs: Maps</title><link>https://gm-companion.github.io/docs/tools/maps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/maps/</guid><description>
-&lt;p>The map tool allows you to view images of maps.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-01.png" alt="" title="Screenshot of the map tool">&lt;/p>
-&lt;p>Currently maps can only be of type .jpg or .png.&lt;br>
-You can zoom in and out or rotate the image. Drawing and making annotations are features planned for future versions.&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-02.webp" alt="Screenshot of dice tool settings">&lt;/p></description></item><item><title>Docs: Maps</title><link>https://gm-companion.github.io/docs/tools/maps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/maps/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-01.webp" alt="Screenshot of the map tool">&lt;/p>
+&lt;p>Currently maps can only be of type .jpg or .png.&lt;/p>
+&lt;h2 id="map-markers">Map Markers&lt;/h2>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-02.webp" alt="Screenshot of the map tool with marker editor">&lt;/p>
+&lt;ol>
+&lt;li>Open a map&lt;/li>
+&lt;li>Press the red marker button on the right&lt;/li>
+&lt;li>Press &amp;ldquo;+&amp;rdquo;&lt;/li>
+&lt;li>Drag the marker to it&amp;rsquo;s place&lt;/li>
+&lt;li>Click on the marker to select it and press &amp;ldquo;edit&amp;rdquo;&lt;/li>
+&lt;li>Change the name, set a description, change the icon and color using the dialog&lt;/li>
+&lt;/ol>
 &lt;h2 id="setup">Setup&lt;/h2>
 &lt;p>Maps have to be located inside subfolders inside your base maps folder.&lt;br>
-By default this base folder is &lt;em>&amp;hellip;/your-home-directory**/.gm-companion/maps**&lt;/em>.&lt;br>
-It can be changed in the &lt;a href="https://gm-companion.github.io/docs/settings">settings&lt;/a>.&lt;/p></description></item><item><title>Docs: Name Generator</title><link>https://gm-companion.github.io/docs/tools/name-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/name-generator/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/name-generator-01.png" alt="">&lt;/p>
-&lt;h2 id="usage">Usage&lt;/h2>
-&lt;p>As the name suggests, the &amp;ldquo;Name Generator&amp;rdquo; lets you generate some names for characters.&lt;/p>
-&lt;p>To generate them use the spin box to set the amount of names to be generated. (Default value is 15)&lt;br>
-Select a category, click the button for the type name you want to generate.&lt;br>
-Done.&lt;/p>
-&lt;p>To generate new names click the button again.&lt;/p>
-&lt;h2 id="custom-names">Custom Names&lt;/h2>
-&lt;p>The name generator works by selecting a random one from a list of names and combining it with a last name that is also randomly selected.&lt;/p>
-&lt;p>To add your own names go into the &lt;em>.gm-companion&lt;/em> folder located in your home directory.&lt;br>
-Names are placed in categories, the default one being &lt;em>Generic&lt;/em>.&lt;br>
-If you want to create a new category simply create a new folder in the &lt;em>names&lt;/em> subfolder.&lt;br>
-Inside that folder create another one for the type of names you want to add.&lt;/p>
-&lt;p>&lt;strong>Example:&lt;/strong>&lt;br>
-For this example we will create a new category and name it &amp;ldquo;Example&amp;rdquo;.&lt;br>
-Now we have the following directories: &lt;em>/.gm-companion/names/Example&lt;/em>.&lt;br>
-We now want to add a name generator for dwarf names and to do that we create a new folder &amp;ldquo;Dwarves&amp;rdquo;.&lt;br>
-We need to create 3 textfiles in the &lt;em>Example/Dwarves&lt;/em> folder:&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>male.txt&lt;/em>&lt;/li>
-&lt;li>&lt;em>female.txt&lt;/em>&lt;/li>
-&lt;li>&lt;em>surnames.txt&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;p>Those files include the actual names, seperated by a &amp;ldquo;,&amp;rdquo;. (No spaces!)&lt;br>
-For this example we will open &lt;em>male.txt&lt;/em> and add the following line:&lt;br>
-&lt;code>Bifur,Bofur,Bombur&lt;/code>&lt;br>
-If you want to add female names or surnames do so in a similar fashion.&lt;/p>
-&lt;p>If you add names for a culture that does not use surnames or is female only or something similar, delete the unused files.&lt;/p>
-&lt;h2 id="names-in-addons">Names in Addons&lt;/h2>
-&lt;p>Addons can add their own category of names if they are enabled in the options.&lt;br>
-Addon names are not located in the &lt;em>names&lt;/em> folder but instead in the addon folder.&lt;br>
-For more information about addons visit the &lt;a href="https://gm-companion.github.io/docs/addons">addon page&lt;/a>&lt;/p></description></item><item><title>Docs: Notes</title><link>https://gm-companion.github.io/docs/tools/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/notes/</guid><description>
-&lt;p>This tool allows you to take some quick notes during a session or simply to have all your story notes in one place.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-01.png" alt="">&lt;/p>
-&lt;h2 id="chapters">Chapters&lt;/h2>
-&lt;p>Chapters are actually folders inside your notes folder.&lt;br>
-A chapter can store multiple note pages.&lt;/p>
-&lt;p>To add a chapter, click the &amp;ldquo;+&amp;rdquo; and select &lt;em>Chapter&lt;/em> in the combo-box.&lt;br>
-Enter the title in the text field and click &amp;ldquo;Ok&amp;rdquo;.&lt;/p>
-&lt;p>To remove a chapter, select it via the combo-box. Then press and hold the trash-bin icon.&lt;br>
-Warning: This will also delete all pages inside it!&lt;/p>
+By default this base folder is &lt;em>/your-home-directory/&lt;strong>.gm-companion/maps&lt;/strong>&lt;/em>, but it can be changed in the settings.&lt;/p></description></item><item><title>Docs: Name Generator</title><link>https://gm-companion.github.io/docs/tools/name-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/name-generator/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Addons&lt;/h4>
+Addons can include name generators.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/name-generator-01.webp" alt="Screenshot of the name generator tool">&lt;/p></description></item><item><title>Docs: Notes</title><link>https://gm-companion.github.io/docs/tools/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/notes/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-01.webp" alt="Screenshot of notes tool in editing mode">&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-02.webp" alt="Screenshot of notes tool in reading mode">&lt;/p>
+&lt;h2 id="books-and-chapters">Books and Chapters&lt;/h2>
+&lt;p>Books and chapters are actually folders inside your configured notes folder.&lt;br>
+The only difference is that books are the top level folders.&lt;/p>
+&lt;p>A book/chapter can contain more chapters and multiple note pages.&lt;/p>
+&lt;p>To add a new book, press the &amp;ldquo;New Notebook&amp;rdquo; button, set a name and press enter.
+Chapters can be added by right-clicking books or chapters and selecting &amp;ldquo;New Chapter&amp;rdquo;.&lt;/p>
 &lt;h2 id="pages">Pages&lt;/h2>
 &lt;p>Notes are textfiles stored inside chapters.&lt;br>
-A note must belong to a chapter.&lt;/p>
-&lt;p>Click the &amp;ldquo;+&amp;rdquo;, select &lt;em>Page&lt;/em> and enter the name to create a new one.&lt;/p>
-&lt;p>Pages don&amp;rsquo;t have to be saved, everytime the page is edited it saves automatically.&lt;br>
-To delete a page, select it and hold the trash-bin icon in the sidebar for a few seconds.&lt;/p>
+A note must always belong to a chapter or a book.&lt;/p>
+&lt;p>Pages can be added by right-clicking books or chapters and selecting &amp;ldquo;New Page&amp;rdquo;.
+If you don&amp;rsquo;t add a file extension, &lt;code>.md&lt;/code> is used.&lt;/p>
+&lt;h3 id="markdown">Markdown&lt;/h3>
+&lt;p>Markdown is a simple markup language. If you have never heard about it, have a look at &lt;a href="https://www.markdownguide.org/">this guide&lt;/a>.&lt;/p>
+&lt;p>By clicking the eye/pen icon you can switch between editing and reading mode.&lt;/p>
+&lt;h3 id="pdf-export">PDF Export&lt;/h3>
+&lt;p>Pages can also be exported as PDFs.&lt;/p>
+&lt;p>To do that, switch into reading mode and press the &amp;ldquo;PDF&amp;rdquo; button. The document will be placed next to the markdown file in the file system.&lt;/p>
 &lt;h2 id="encryption">Encryption&lt;/h2>
 &lt;p>The &amp;ldquo;Encrypt Page&amp;rdquo; button encrypts the current note using the &amp;ldquo;rot13&amp;rdquo; method.&lt;br>
-This method is not a save encryption method as it only replaces every letter by the one at the current alphabetic index + 13.&lt;br>
-This means that encrypting the encrypted note again restores the original one.&lt;/p>
-&lt;p>The idea behind this feature is to prevent others from accidentally reading your notes and spoil themselves, if for example the laptop used by the gamemaster is not actually owned by him but by a player.&lt;/p></description></item><item><title>Docs: Shops</title><link>https://gm-companion.github.io/docs/tools/item-shop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/item-shop/</guid><description>
-&lt;p>With this tool you can create item shops.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-tool-01.png" alt="">&lt;/p>
+This method is not a cryptographically safe encryption method as it only replaces every letter by the one at the current alphabetic index + 13, so that encrypting the encrypted note again restores the original content.&lt;/p>
+&lt;p>The idea behind this feature is to prevent others from accidentally reading your notes.&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-03.webp" alt="Screenshot of notes tool in reading mode (encrypted)">&lt;/p></description></item><item><title>Docs: Shops</title><link>https://gm-companion.github.io/docs/tools/item-shop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/item-shop/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-tool-01.webp" alt="Screenshot of the shop tool">&lt;/p>
 &lt;h2 id="usage">Usage&lt;/h2>
 &lt;ol>
 &lt;li>Select a project in the combo-box. (If there are none, open the editor and create one)&lt;/li>
 &lt;li>Select a category on the left.&lt;/li>
 &lt;li>Select a shop on the right.&lt;/li>
-&lt;li>Done.&lt;/li>
+&lt;li>Profit.&lt;/li>
 &lt;/ol>
 &lt;h2 id="editor">Editor&lt;/h2>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-editor-01.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-editor-01.webp" alt="Screenshot of the shop editor">&lt;/p>
 &lt;p>Shops are managed in project files. By default these are located in this folder:&lt;br>
-&lt;em>&amp;hellip;/your-home-directory**/.gm-companion/shop**&lt;/em>&lt;/p>
+&lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/shop&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Every shop also belongs in a category, so create one first before trying to create any shops.&lt;/p>
 &lt;h3 id="editing-a-shop">Editing a shop&lt;/h3>
 &lt;p>When you have created a project, category and a shop, select the shop on left.&lt;br>
 Now you can set a shop owner and add a short description.&lt;br>
 You can add items to your shop from the item list on the right. If the list is empty, open the item editor and create some items.&lt;/p>
 &lt;h2 id="item-editor">Item Editor&lt;/h2>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/item-editor-01.png" alt="">&lt;/p>
-&lt;p>Every item belongs to a category, so create one first.&lt;br>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/item-editor-01.webp" alt="Screenshot of the item editor">&lt;/p>
+&lt;p>Every item needs a category, so create one first.&lt;br>
 Enter the item name and select a category. Price and description are optional.&lt;br>
 When you are done, click &amp;ldquo;Add Item&amp;rdquo;.&lt;br>
 You can now add your item to a shop.&lt;/p></description></item><item><title>Docs: Unit Converter</title><link>https://gm-companion.github.io/docs/tools/converter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/converter/</guid><description>
-&lt;p>This tool lets you convert units.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-tool-01.png" alt="">&lt;/p>
-&lt;p>There are five types of units: length, area, volume, weight and money.&lt;/p></description></item></channel></rss>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Addons&lt;/h4>
+Addons can include converter projects.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-tool-01.webp" alt="Converter tool screenshot">&lt;/p>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>Enter a value into the left field and choose a unit below. It will be converted to the unit on the right.&lt;/p>
+&lt;p>GM-Companion comes with many common units included.&lt;/p>
+&lt;h3 id="editor">Editor&lt;/h3>
+&lt;p>Custom units can easily created using the unit editor.&lt;/p>
+&lt;ol>
+&lt;li>Use the dialog to create a new project.&lt;/li>
+&lt;li>Create a category for your units.&lt;/li>
+&lt;li>Add your unit to the category.&lt;/li>
+&lt;/ol>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Unit value&lt;/h4>
+Units need to have a value relative to an arbitrary &amp;ldquo;reference unit&amp;rdquo;.
+This could be the relevant SI unit for a category or something completely different.
+It is only important that this is kept consistent for all units in the category.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-editor-01.webp" alt="Converter tool screenshot">
+&lt;img src="https://gm-companion.github.io/images/converter-editor-02.webp" alt="Converter tool screenshot">&lt;/p></description></item></channel></rss>

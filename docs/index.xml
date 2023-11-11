@@ -1,27 +1,25 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Docs</title><link>https://gm-companion.github.io/docs/</link><description>Recent content in Docs on GM-Companion</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://gm-companion.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Getting Started</title><link>https://gm-companion.github.io/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/getting-started/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>If you have not yet installed the application, visit &lt;a href="https://gm-companion.github.io/docs/install">this page&lt;/a> first.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Documentation</title><link>https://gm-companion.github.io/docs/</link><description>Recent content in Documentation on GM-Companion</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Getting Started</title><link>https://gm-companion.github.io/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/getting-started/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+If you have not yet installed the application, visit &lt;a href="https://gm-companion.github.io/docs/install">this page&lt;/a> first.
 &lt;/div>
 &lt;h2 id="audio-tool">Audio Tool&lt;/h2>
 &lt;ul>
 &lt;li>Go to settings, set path of music and sound files&lt;/li>
 &lt;li>Open audio editor, create new project&lt;/li>
 &lt;li>Add a category and a scenario&lt;/li>
-&lt;li>Create an element, add music/sound files, radio playlist file or URL&lt;/li>
-&lt;li>Optionally create a thumbnail image, place it in your resources path, add image to element&lt;/li>
+&lt;li>Create an element, add music/sound files&lt;/li>
 &lt;/ul>
 &lt;p>&lt;a href="https://gm-companion.github.io/docs/tools/audio">See the full documentation&lt;/a>&lt;/p>
 &lt;h3 id="spotify">Spotify&lt;/h3>
+&lt;div class="alert alert-primary" role="alert">
+The Spotify integration requires you to have a Spotify Premium account.
+&lt;/div>
 &lt;p>Using Spotify with GM-Companion requires some additional steps first:&lt;/p>
 &lt;ul>
-&lt;li>Go to &lt;a href="https://developer.spotify.com/dashboard">Spotify developer page&lt;/a>&lt;/li>
-&lt;li>&amp;ldquo;Create an App&amp;rdquo;&lt;/li>
-&lt;li>In app settings add &lt;em>http://127.0.0.1:59991/&lt;/em> as a redirect URI&lt;/li>
-&lt;li>Go to GM-Companion settings, add &amp;ldquo;Client ID&amp;rdquo; and &amp;ldquo;Client Secret&amp;rdquo; of your app&lt;/li>
-&lt;li>Restart GM-Companion&lt;/li>
-&lt;li>You can now add Spotify playlists and albums as elements, the &amp;ldquo;&lt;em>Audio Addon&lt;/em>&amp;rdquo; has some great RPG related playlists. You can add by adding a Spotify element and pressing &amp;ldquo;&lt;em>Add from Addons&lt;/em>&amp;rdquo;&lt;/li>
+&lt;li>Go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>Note that playing Spotify playlists requires the Spotify app running in the background.&lt;/p>
 &lt;p>&lt;a href="https://gm-companion.github.io/docs/tools/audio#spotify">See the full documentation&lt;/a>&lt;/p>
 &lt;h2 id="map-tool">Map Tool&lt;/h2>
 &lt;ul>
@@ -34,255 +32,106 @@
 &lt;ul>
 &lt;li>Open your characters folder (see &amp;ldquo;Paths&amp;rdquo; settings)&lt;/li>
 &lt;li>Create a new folder and name it after the character&lt;/li>
-&lt;li>Place images of the character sheet inside&lt;/li>
+&lt;li>Place PDF or images of the character sheet inside&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://gm-companion.github.io/docs/tools/characters">See the full documentation&lt;/a>&lt;/p></description></item><item><title>Docs: Linux</title><link>https://gm-companion.github.io/docs/install/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/linux/</guid><description>
-&lt;p>&lt;a href="https://repology.org/project/gm-companion/versions">&lt;img src="https://repology.org/badge/vertical-allrepos/gm-companion.svg" alt="Packaging status">&lt;/a>&lt;/p>
-&lt;h2 id="appimage">AppImage&lt;/h2>
-&lt;p>&lt;a href="https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion-1.1.0_amd64.AppImage">Download 64-bit&lt;/a>&lt;br>
-The AppImage is built using Ubuntu 16.04 LTS.&lt;/p>
-&lt;p>You might have to install &lt;code>gstreamer 1.0&lt;/code> otherwise audio cannot be played. For me this version works on Ubuntu but not on Manjaro.&lt;/p>
-&lt;h2 id="arch-linux">Arch Linux&lt;/h2>
-&lt;p>Install from &lt;a href="https://aur.archlinux.org/packages/gm-companion/">AUR&lt;/a>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>yay -S gm-companion
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ubuntu">Ubuntu&lt;/h2>
-&lt;p>Currently your best option is to build from source:&lt;br>
-(I am working on a ppa)&lt;/p>
-&lt;h3 id="ubuntu-1810">Ubuntu 18.10&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install qtbase5-dev qt5-default qttools5-dev qtmultimedia5-dev libqt5opengl5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev qtdeclarative5-dev libqt5network5 libqt5webengine5 libqt5webenginecore5 libqt5networkauth5-dev libqt5core5a libqt5multimedia5 libqt5multimedia5-plugins libqt5network5 libqt5networkauth5 libqt5opengl5 libqt5script5 libqt5widgets5 libqt5xml5 libqt5xmlpatterns5 libqt5gui5 libqt5qml5 libqt5quick5 qml-module-qtquick-layouts qml-module-qtquick-window2 libqt5quickcontrols2-5 qml-module-qtquick2 qml-module-qtquick-controls libqt5webengine5 libqt5webenginecore5 libqt5multimediaquick5 libqt5quickwidgets5 libpoppler-qt5-dev
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
-or install:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ubuntu-1804">Ubuntu 18.04&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-bionic
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /opt/qt512/bin/qt512-env.sh
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
-or install:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ubuntu-1604">Ubuntu 16.04&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:beineri/opt-qt-5.12.1-xenial
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install binutils libpulse-dev qt512base qt512declarative qt512graphicaleffects qt512imageformats qt512multimedia qt512networkauth-no-lgpl qt512quickcontrols qt512quickcontrols2 qt512script qt512tools qt512translations qt512webengine libegl1-mesa-dev libglu1-mesa-dev mesa-utils libpoppler-qt5-dev
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /opt/qt512/bin/qt512-env.sh
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
-or install:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="debian">Debian&lt;/h2>
-&lt;p>(Debian Buster)&lt;/p>
-&lt;p>Install build dependencies&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo apt install build-essential qt5-default libqt5network5 libqt5networkauth5-dev libqt5quick5 qtdeclarative5-dev qtmultimedia5-dev qtquickcontrols2-5-dev libpoppler-qt5-dev qt5keychain-dev libtag1-dev openssl qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform qml-module-qt-labs-settings qml-module-qtquick-controls2 qml-module-qtquick-controls qml-module-qtquick-dialogs qml-module-qtquick-extras qml-module-qtquick-window2 qml-module-qtquick2 cargo libasound2-dev -y
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get librespot&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cargo install librespot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake CONFIG+=release PREFIX=/usr
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(nproc)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="arch--manjaro">Arch / Manjaro&lt;/h2>
-&lt;p>Install dependencies&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo pacman -S base-devel
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>// TODO&lt;/p>
-&lt;h2 id="fedora">Fedora&lt;/h2>
-&lt;p>Install dependencies&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo dnf groupinstall &amp;#34;Development Tools&amp;#34;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dnf install qt5 qt5-devel poppler-qt5-devel qtkeychain-devel taglib-devel
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Create workaround links for qtkeychain&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>sudo ln -s /usr/include/qtkeychain /usr/include/qt5keychain
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ln -s /usr/lib64/libqtkeychain.so /usr/lib64/libqt5keychain.so
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake-qt5 CONFIG+=release PREFIX=/usr
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(nproc)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="other-distros">Other Distros&lt;/h2>
-&lt;ol>
-&lt;li>&lt;code>git clone --recursive https://github.com/PhilInTheGaps/GM-Companion&lt;/code>&lt;/li>
-&lt;li>Install &lt;a href="https://www.qt.io/">Qt5&lt;/a> &amp;gt;=5.10&lt;/li>
-&lt;li>Install &lt;a href="https://poppler.freedesktop.org/">Poppler-Qt5&lt;/a>&lt;/li>
-&lt;li>Build the program:&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cd GM-Companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>qmake
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>run: &lt;code>./gm-companion&lt;/code>&lt;br>
-or install:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>make install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gm-companion
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Windows</title><link>https://gm-companion.github.io/docs/install/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/windows/</guid><description>
-&lt;p>&lt;a href="https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.1.0/gm-companion_1.1.0_win64.zip">Release 1.1.0 (Win x64)&lt;/a>&lt;/p>
-&lt;p>The program works without an installer. Simply extract all the files from the .zip archive to a folder and run &lt;em>gm-companion.exe&lt;/em>.&lt;/p>
-&lt;h2 id="build-from-source">Build from Source&lt;/h2>
-&lt;h3 id="requirements">Requirements&lt;/h3>
+&lt;p>&lt;a href="https://gm-companion.github.io/docs/tools/characters">See the full documentation&lt;/a>&lt;/p></description></item><item><title>Docs: Changelog</title><link>https://gm-companion.github.io/docs/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/changelog/</guid><description>
+&lt;h2 id="release-120">Release 1.2.0&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.qt.io/download">Qt&lt;/a>
+&lt;li>&lt;strong>Additions&lt;/strong>
 &lt;ul>
-&lt;li>install the latest LTS version&lt;/li>
+&lt;li>General
+&lt;ul>
+&lt;li>Tools can now be switched to via hotkey (Ctrl+Number)&lt;/li>
+&lt;li>Added Nextcloud integration&lt;/li>
+&lt;li>Added a new dialog that show warnings and errors&lt;/li>
+&lt;li>Addons can now be installed from repositories&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="http://mingw.org/">MinGW&lt;/a>
+&lt;li>Audio Tool
 &lt;ul>
-&lt;li>can be installed through the Qt installer&lt;/li>
+&lt;li>Added MPRIS media controls on Linux&lt;/li>
+&lt;li>Added function to search for elements&lt;/li>
+&lt;li>Added sub-scenarios for more structured audio projects&lt;/li>
+&lt;li>Added support for single Spotify tracks in audio elements&lt;/li>
+&lt;li>Added automatic thumbnail generation for audio elements&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://taglib.org/">TagLib&lt;/a>
+&lt;li>Combat Tracker
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/PhilInTheGaps/taglib-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;li>Added option to delay a turn&lt;/li>
+&lt;li>Added auto saves to prevent data loss in case of a crash&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://poppler.freedesktop.org/">Poppler&lt;/a>
+&lt;li>Map Tool
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/PhilInTheGaps/poppler-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;li>Added map markers&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://github.com/frankosterfeld/qtkeychain">qtkeychain&lt;/a>
+&lt;li>Character Tool
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/PhilInTheGaps/qtkeychain-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;li>PDFs are now also supported on Windows&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>(optional) &lt;a href="https://github.com/librespot-org/librespot">librespot&lt;/a>
+&lt;li>Name Generator
 &lt;ul>
-&lt;li>if you intent to use Spotify&lt;/li>
-&lt;li>&lt;a href="https://github.com/PhilInTheGaps/librespot-bin/releases">pre-compiled binaries&lt;/a>&lt;/li>
+&lt;li>Added support for more name categories, prefixes and suffixes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Notes Tool
+&lt;ul>
+&lt;li>Added Markdown support&lt;/li>
+&lt;li>Added PDF export&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="build-instructions">Build Instructions&lt;/h3>
-&lt;p>Get source code&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Unpack build dependencies&lt;/p>
+&lt;/li>
+&lt;li>&lt;strong>Improvements&lt;/strong>
 &lt;ul>
-&lt;li>unpack poppler.zip to gm-companion\lib\poppler&lt;/li>
-&lt;li>unpack qt5keychain.zip to gm-companion\lib\qt&lt;strong>5&lt;/strong>keychain&lt;/li>
-&lt;li>unpack taglib.zip to gm-companion\lib\taglib&lt;/li>
-&lt;/ul>
-&lt;p>Build&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake DEFINES-=NO_UPDATE_CHECK CONFIG+=qtquickcompiler CONFIG+=release PREFIX=install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make -j%NUMBER_OF_PROCESSORS%
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make check
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mingw32-make install
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fetch libraries&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cd src\install\bin
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>set QT_PATH=&amp;lt;e.g C:\Qt\5.12.8\mingw73_64&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>windeployqt.exe -xml --release --qmldir %QT_PATH%\qml gm-companion.exe
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Copy additional libraries&lt;/p>
+&lt;li>General
 &lt;ul>
-&lt;li>copy contents of the bin directories from taglib.zip, poppler.zip and qt5keychain.zip to src\install\bin&lt;/li>
-&lt;li>if you intent to use Spotify, copy librespot.exe to src\install\bin
-&lt;ul>
-&lt;li>make sure the file is named librespot.exe and not librespot-x86_64.exe&lt;/li>
-&lt;li>alternatively if you installed librespot from cargo make sure the cargo bin directory is in your path&lt;/li>
+&lt;li>Various UI improvements&lt;/li>
+&lt;li>Cloud file sources are now supported by every tool&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Settings</title><link>https://gm-companion.github.io/docs/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/settings/</guid><description>
-&lt;h2 id="general">General&lt;/h2>
-&lt;h3 id="language-and-ui-style">Language and UI Style&lt;/h3>
-&lt;p>These settings should be self-explanatory.&lt;br>
-The following languages are currently available:&lt;/p>
+&lt;li>Audio Tool
 &lt;ul>
-&lt;li>English&lt;/li>
-&lt;li>German&lt;/li>
+&lt;li>Removed Spotify elements, instead Spotify playlists/albums/songs can now be added to normal music lists&lt;/li>
+&lt;li>Elements can now have images from the web as thumbnails&lt;/li>
+&lt;li>Thumbnails can be chosen from an unsplash.com collection via a dialog&lt;/li>
+&lt;li>Projects, categories and scenarios can now be deleted&lt;/li>
+&lt;li>Spotify does not require an official client anymore, &lt;a href="https://github.com/librespot-org/librespot">librespot&lt;/a> is used instead&lt;/li>
 &lt;/ul>
-&lt;h3 id="updates">Updates&lt;/h3>
-&lt;p>If you enable &amp;ldquo;Automatically check for updates&amp;rdquo; you will be notified at prgram start when an update is available.&lt;br>
-By default this setting is disabled, as I recommend to use a package manager to install the program.&lt;/p>
-&lt;h3 id="spotify">Spotify&lt;/h3>
-&lt;p>See the instructions &lt;a href="https://gm-companion.github.io/docs/tools/audio#spotify">here&lt;/a>.&lt;/p>
-&lt;h2 id="paths">Paths&lt;/h2>
-&lt;p>Many tools use file paths that can be changed here.&lt;br>
-I recommend to store stuff like audio project files, maps, character sheets, notes, etc. in a cloud storage and sync them between computers.&lt;/p>
-&lt;h2 id="cloud-storage">Cloud Storage&lt;/h2>
-&lt;p>It is possible to stream some files from a cloud service. (Currently only Google Drive)&lt;/p>
-&lt;ol>
-&lt;li>Open the &lt;a href="https://console.developers.google.com">Google developer console&lt;/a>&lt;/li>
-&lt;li>Create a new project&lt;/li>
-&lt;li>Add the Google Drive API (under the G Suite category)&lt;/li>
-&lt;li>Click &amp;ldquo;Create Credentials&amp;rdquo;&lt;/li>
-&lt;li>Select the Google Drive API, Choose &amp;ldquo;Other UI&amp;rdquo; abd select &amp;ldquo;User Data&amp;rdquo;&lt;/li>
-&lt;li>Set up an OAuth consent screen. The only field you need to fill out is the application name. Enter &lt;em>GM-Companion&lt;/em>.&lt;/li>
-&lt;li>Go back to the credentials page and &amp;ldquo;Create an OAuth 2.0 client ID&amp;rdquo;&lt;/li>
-&lt;li>Click on your newly created ID name. A page should open where you can copy a &amp;ldquo;Client ID&amp;rdquo; and a &amp;ldquo;Client Secret&amp;rdquo;.&lt;/li>
-&lt;li>In the GM-Companion settings open the &lt;em>Cloud Storage&lt;/em> tab and under &lt;em>Select File Storage&lt;/em> select &amp;ldquo;Google Drive&amp;rdquo;&lt;/li>
-&lt;li>Enter the Client ID and Secret into their respective textfields in the GM-Companion.&lt;/li>
-&lt;/ol>
-&lt;p>You can now enter the folder ids similar to the normal paths.&lt;br>
-Note that all Google Drive folders used in the GM-Companion need their sharing setting set to &amp;ldquo;Anyone with the link can view&amp;rdquo;.&lt;br>
-To find the id of a folder open it in a web browser. The URL should be something like &lt;code>https://drive.google.com/drive/folders/###&lt;/code> where &lt;code>###&lt;/code> represents the folder id.&lt;/p>
-&lt;h2 id="addons">Addons&lt;/h2>
-&lt;p>Here you can enable / disable addons. For more information see &lt;a href="https://gm-companion.github.io/docs/addons">&lt;em>addons&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Docs: Resources</title><link>https://gm-companion.github.io/docs/tools/audio/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/audio/resources/</guid><description>
-&lt;p>The resources folder contains custom thumbnails for &lt;a href="https://gm-companion.github.io/docs/tools/audio">audio tool&lt;/a> elements.&lt;/p>
-&lt;p>By default the folder is located here:&lt;br>
-&lt;em>&amp;hellip;/your-home-directory**/.gm-companion/resources**&lt;/em>&lt;/p></description></item><item><title>Docs: Changelog</title><link>https://gm-companion.github.io/docs/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/changelog/</guid><description>
-&lt;!--
-## Release 1.2.0
-- **Additions**
-- Tools can now be switched to via hotkey (Ctrl+Number)
-- Audio Tool
-- Added mpris media controls on Linux
-- Added function to search for elements
-- Added subscenarios for more structured audio projects
-- Added support for single Spotify tracks in audio elements
-- Added support for audio from YouTube videos in audio elements
-- Added automatic thumbnail generation for audio elements
-- Map Tool
-- Added map markers
-- Combat Tracker
-- Added option to delay a turn
-- **Improvements**
-- Improved list header color in dark UI style
-- Audio Tool
-- Removed Spotify elements, instead Spotify playlists/albums/songs can now be added to normal music lists
-- Elements can now have images from the web as thumbnails
-- Thumbnails can be chosen from an unsplash.com collection via dialog
-- UI improvements
-- Projects, categories and scenarios can now be deleted
-- Spotify does not require an official client anymore, [librespot](https://github.com/librespot-org/librespot) is used instead
-- Map Tool
-- Zooming no longer centers the image
-- Zoom steps are now smaller, added slider
-- Maps can now be selected even if the preview image is still loading
-- External Services
-- The Spotify access key is now retrieved from a server. This means you don't have to generate a client id and secret in the Spotify developer console. Though that is still an alternative. Also you can host [the server](https://github.com/philinthegaps/gm-companion-backend) yourself if you want.
-- GoogleDrive integration now works for **all** tools
-- **Fixes**
-- Fixed broken info links
-- Fixed element image breaking when file cannot be found, uses default image now
-- Fixed a crash in audio editor when checking for missing files
-- Fixed audio elements not having a mode set by default
-- Fixed bug where the first file in an audio element could not be deleted
-- Fixed Sotify elements needing to be selected a second time to play
-- Fixed GoogleDrive integration not working
--->
+&lt;/li>
+&lt;li>Map Tool
+&lt;ul>
+&lt;li>Zooming no longer centers the image&lt;/li>
+&lt;li>Zoom steps are now smaller, added slider&lt;/li>
+&lt;li>Maps can now be selected even if the preview image is still loading&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>External Services
+&lt;ul>
+&lt;li>The Spotify access key can now be retrieved from a server. This means you don&amp;rsquo;t have to generate a client id and secret in the Spotify developer console. Though that is still an alternative. Also you can host &lt;a href="https://github.com/gm-companion/gm-companion-backend">the server&lt;/a> yourself if you want.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Fixes&lt;/strong>
+&lt;ul>
+&lt;li>Fixed a lot of crashes&lt;/li>
+&lt;li>Fixed broken info links&lt;/li>
+&lt;li>Fixed element image breaking when file cannot be found, uses default image now&lt;/li>
+&lt;li>Fixed audio elements not having a mode set by default&lt;/li>
+&lt;li>Fixed bug where the first file in an audio element could not be deleted&lt;/li>
+&lt;li>Fixed Spotify elements needing to be selected a second time to play&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Removed&lt;/strong>
+&lt;ul>
+&lt;li>Temporarily (?) removed GoogleDrive integration&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-110">Release 1.1.0&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -581,320 +430,207 @@ To find the id of a folder open it in a web browser. The URL should be something
 &lt;li>Added function to check for updates&lt;/li>
 &lt;li>Added function to open wiki&lt;/li>
 &lt;li>Added function to report bugs&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Audio Addon</title><link>https://gm-companion.github.io/docs/addons/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/audio/</guid><description>
-&lt;p>A collection of great rpg themed Spotify playlists&lt;/p>
-&lt;h2 id="by-brian-davis-bezoinghttpsopenspotifycomuserbezoingsiacn6rqebqts2izeuwdkrka">By &lt;a href="https://open.spotify.com/user/bezoing?si=acN6RQebQTS2iZEUWDKRKA">Brian Davis (bezoing)&lt;/a>&lt;/h2>
-&lt;h3 id="atmosphere">Atmosphere&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>The Capital&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:2t5TWAPs6HYuJ3xbpjHYpx&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Cathedral&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:0IyMP3izyM2jbYgJLydB00&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Desert&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:0IyMP3izyM2jbYgJLydB00&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Dungeon&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:64UCYVCIPtZiOP2zEodORk&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Fey&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:4jPscCOA5zrheXibHnmlU1&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Manor&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6QzZjlzHxNUo9N6E19RKpJ&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Road&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:0gZQWj0PjC6t2bgmroHaaW&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Saloon&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:73YmiE2tLNG5VbNF7oGmSn&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Tavern&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:2StSwZk9mV2DNO3aucMZYx&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Town&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:5GgU8cLccECwAvjDCGhYjj&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Underdark&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:5Qhtamj9NCxluijLnQ4edN&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Wild&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:5r2AkNQOITXRqVWqYj40QG&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="combat">Combat&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Boss&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:0Q6hJZYIEu3LwbyBBHjjHo&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Duel&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:5g9ZZ9Ogml8NsjOlv8N31t&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Epic&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:4Anyq806DQpd7pRZbSADUr&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Horrifying&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1SbeUQZbRHyUEIr6wsoD4q&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Standard&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:0bWUBjlr7O4troJKyyMVbD&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Tough&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6T0UOAmlbWb29y2fIETtL2&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="monsters">Monsters&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Abberations&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1IIfebxUOYAeOD2Aqvw7Rj&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Beasts&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6XslTVSeiQr80Gu79vnfXZ&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Dragons&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1qvLig9ELPmb8bcVPutk9M&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Giants&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6U68RdBoCkZFNWBXhQ4KXH&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Goblins&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:58lGIqHs8HSmcYoKW7gBE3&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Hags&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:4k1no9mrUph4rkFI1bEFJT&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Orcs&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:46NfO4PokCdGvm6Fkbtx9u&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Tribesmen&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:2crzs0lic8x58JyPZM8k3v&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Undead&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:49PvqjRs9c4lgyvdOI4Lvd&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="mood">Mood&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Creepy&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6nSstCQcmzcEUSx8gBrcek&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Denouement&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:71AETM4dyul7BDNYE9zVBv&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Joyful&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6KbY8nK4vdGO0zaSuoXEFr&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Mysterious&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:28ICiQDK37yaahRZD7aX3J&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ominous&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:71yNeiFbb8bDhgLIzu9eae&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Pleasant&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:3O4DGo9DS5kzUUJo6EQYdp&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridiculous&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:3VepfFpcPxHIL7WyKYFdGI&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Serious&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:3LNrO4Jvwtzk2QD1gR8ccZ&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Somber&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:5N5w6WFXigWqZMLzVo6rdh&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Tense&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:4DYALPIektzP4vVdZFlHNe&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Triumphant&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1ALzSDT8MfYQ7Xams9Nx16&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="setting">Setting&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Barovia&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1Pw2cdOxeDBgIsocUWQYyD&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Chult&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:4OfzULWGbFp4ohUoYuRvJh&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Cyberpunk&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:3q2iJdKM6MqKkZoRKMtti4&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="situation">Situation&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Chase&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:1TXWTHKaWNQij6K9Ldn6fU&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Stealth&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:6GdFG0fgrJLSXSlEkF6iM0&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="other">Other&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Sea Shanties&lt;/td>
-&lt;td>&lt;code>spotify:user:bezoing:playlist:3p22aU2NEvY8KErZAoWSJD&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="by-gentilpuckhttpsopenspotifycomusergentilpucksinzpk5i8wtbuwdcbrrix_qg">By &lt;a href="https://open.spotify.com/user/gentilpuck?si=nZpk5I8wTBuWdcBrrix_qg">gentilpuck&lt;/a>&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Spotify URI&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>RPG Background Music&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:6pTSU69FBIPJ1BZFfDI1oR&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Battle Music&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:5kBVsBIQXLxWXgSUUNZ1DR&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Dark Music&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:5g1Hpnw7R5MDVc86fvUAfS&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Sci-Fi&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:4y8sUEiRp9IKCABSFj7sk8&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Sci-Fi Battle&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:4SXpcFacSpRR0DyNGJYTSO&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Epic Action Music&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:1cxi0WEXJAUc890tYp3ypv&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RPG Oriental Ambiance&lt;/td>
-&lt;td>&lt;code>spotify:user:gentilpuck:playlist:3ME01BAvdv9HSOOyG81Ela&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Characters</title><link>https://gm-companion.github.io/docs/tools/characters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/characters/</guid><description>
-&lt;p>The character tool allows you to view the character sheets of your players.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/character-tool-01.png" alt="">&lt;/p>
+&lt;/ul></description></item><item><title>Docs: Audio</title><link>https://gm-companion.github.io/docs/addons/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/audio/</guid><description>
+&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-audio-library">https://github.com/gm-companion/addon-audio-library&lt;/a>&lt;/p></description></item><item><title>Docs: Audio</title><link>https://gm-companion.github.io/docs/tools/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/audio/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-tool-01.webp" alt="Screenshot of the audio tool">&lt;/p>
+&lt;h2 id="audio-projects">Audio Projects&lt;/h2>
+&lt;p>Audio project files are located in your audio path, by default &lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/audio&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>They can contain music playlists&lt;/p>
+&lt;h3 id="creating--editing-audio-projects">Creating / Editing Audio Projects&lt;/h3>
+&lt;p>Projects can be created and edited using the Editor.
+For more information about it see the &lt;a href="#audio-editor">Audio Editor&lt;/a> section.&lt;/p>
+&lt;h2 id="audio-controls">Audio Controls&lt;/h2>
+&lt;p>To play an element select a category first. This will display a list of all the available scenarios. Select the scenario you want.&lt;/p>
+&lt;p>If a music element (music list or radio) is already playing and you want to pause it, click pause.&lt;br>
+To stop a sound list from playing simply click the button that represents the sound in the sidebar.&lt;/p>
+&lt;p>Note that while you can only play one music list or radio at a time, you can play as many sound lists as you want.&lt;br>
+Starting a music list stops the currently playing radio and vice versa.&lt;/p>
+&lt;h2 id="audio-editor">Audio Editor&lt;/h2>
+&lt;p>The Audio Editor can be used to create and edit audio projects.&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/audio-editor-01.webp" alt="Screenshot of the audio editor">&lt;/p>
+&lt;h3 id="project-structure">Project Structure&lt;/h3>
+&lt;p>Projects consist of categories, scenarios and &lt;a href="#elements">elements&lt;/a>.&lt;br>
+If, for example, your project is named &amp;ldquo;&lt;strong>Demo Project&lt;/strong>&amp;rdquo; a possible project structure could be the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Demo Project&lt;/strong> (Project Name)
+&lt;ul>
+&lt;li>&lt;strong>Fantasy&lt;/strong> (Category)
+&lt;ul>
+&lt;li>&lt;strong>Situations&lt;/strong> (Scenario)
+&lt;ul>
+&lt;li>&lt;strong>Travel&lt;/strong> (Music List)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Places&lt;/strong> (Scenario)
+&lt;ul>
+&lt;li>&lt;strong>City&lt;/strong> (Music List)&lt;/li>
+&lt;li>&lt;strong>City&lt;/strong> (Sound List)&lt;/li>
+&lt;li>&lt;strong>Tavern&lt;/strong> (Music List)&lt;/li>
+&lt;li>&lt;strong>Tavern&lt;/strong> (Sound List)&lt;/li>
+&lt;li>&lt;strong>Docks&lt;/strong> (Sound List)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Weather&lt;/strong> (Scenario)
+&lt;ul>
+&lt;li>&lt;strong>Rain&lt;/strong> (Sound List)&lt;/li>
+&lt;li>&lt;strong>Snow&lt;/strong> (Sound List)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Generic Music&lt;/strong> (Scenario)
+&lt;ul>
+&lt;li>&lt;strong>Radio Rivendell&lt;/strong> (Radio)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Science Fiction&lt;/strong> (Category)
+&lt;ul>
+&lt;li>Some content &amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Something else&lt;/strong> (Category)
+&lt;ul>
+&lt;li>Also some content &amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="elements">Elements&lt;/h4>
+&lt;p>The following types of elements are available:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#music-lists">Music Lists&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#webradios">Webradios&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sound-lists">Sound Lists&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>All elements can be customized with icons. For further explanations see the &lt;a href="#resources">resources&lt;/a> section.&lt;/p>
+&lt;h5 id="music-lists">Music Lists&lt;/h5>
+&lt;p>Music lists consist of one ore more audio files from one of the following sources:&lt;/p>
+&lt;ul>
+&lt;li>Local mp3, ogg, etc file&lt;/li>
+&lt;li>URL pointing to a file on the internet&lt;/li>
+&lt;li>Spotify (track, album, playlist)&lt;/li>
+&lt;/ul>
+&lt;p>They can have one of the following playback modes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Shuffle List&lt;/strong>&lt;br>
+All songs are shuffled randomly when the playlist is started. All songs are played once before starting from the beginning.&lt;/li>
+&lt;li>&lt;strong>Random Mode&lt;/strong>&lt;br>
+Songs are played in a truly random order. It is possible that a few songs are played more often than others.&lt;/li>
+&lt;li>&lt;strong>Loop List&lt;/strong>&lt;br>
+List is played in sequential order and starts again from the beginning when end is reached.&lt;/li>
+&lt;li>&lt;strong>Sequential Order&lt;/strong>&lt;br>
+List is played in sequential order. Stops when end is reached.&lt;/li>
+&lt;/ul>
+&lt;h6 id="spotify">Spotify&lt;/h6>
+&lt;div class="alert alert-primary" role="alert">
+The Spotify integration requires you to have a Spotify Premium account.
+&lt;/div>
+&lt;p>You can add tracks, albums and playlists to a music list using one of the following formats:&lt;/p>
+&lt;ul>
+&lt;li>Spotify URI: &lt;code>spotify:album:0SHWgw0LPDs37Go6oPdaqp&lt;/code>&lt;/li>
+&lt;li>Spotify Link: &lt;code>https://open.spotify.com/album/0SHWgw0LPDs37Go6oPdaqp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Setup&lt;/strong>&lt;/p>
+&lt;p>You can either connect using the default backend server, a custom server or using a local client.
+For more information about the backend see &lt;a href="https://gm-companion.github.io/docs/backend">this page&lt;/a>.&lt;/p>
+&lt;p>Default Server:&lt;/p>
+&lt;ol>
+&lt;li>Go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>Custom Server:&lt;/p>
+&lt;ol>
+&lt;li>Go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Choose &amp;ldquo;custom server&amp;rdquo; and enter URL&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>Local Client:&lt;/p>
+&lt;ol>
+&lt;li>Register a Spotify app as a developer:
+&lt;ol>
+&lt;li>Go to &lt;a href="https://developer.spotify.com/dashboard/">the Spotify developer dashboard&lt;/a> and click &lt;em>&amp;ldquo;Create a Client ID&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Do all the steps and register a new spotify application. The app name and description are not important.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Set Redirect URLs:
+&lt;ol>
+&lt;li>Click on your newly registered application and click &lt;em>&amp;ldquo;Edit Settings&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Add &lt;code>http://127.0.0.1:59991/&lt;/code> as a redirect url and save the settings.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Get the Client ID and Secret
+&lt;ol>
+&lt;li>Click &lt;em>&amp;ldquo;Show Client Secret&amp;rdquo;&lt;/em>.&lt;/li>
+&lt;li>Open the GM-Companion and in the settings page enter your &lt;strong>Client ID&lt;/strong> and &lt;strong>Client Secret&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Open GM-Companion and go to &lt;code>Settings -&amp;gt; Accounts -&amp;gt; Spotify&lt;/code>&lt;/li>
+&lt;li>Enter your username and password&lt;/li>
+&lt;li>Enter your client id and client secret&lt;/li>
+&lt;li>Click &lt;code>Connect&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h5 id="sound-lists">Sound Lists&lt;/h5>
+&lt;p>Sound lists consist of one ore more audio files from one of the following sources:&lt;/p>
+&lt;ul>
+&lt;li>Local mp3, ogg, etc file&lt;/li>
+&lt;li>URL pointing to a file on the internet&lt;/li>
+&lt;/ul>
+&lt;p>Multiple sound lists can be played at the same time.&lt;/p>
+&lt;p>Playback modes are the same as for music lists.&lt;/p>
+&lt;h5 id="webradios">Webradios&lt;/h5>
+&lt;p>There are two types of radios supported:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Stream&lt;/strong>&lt;br>
+Radios can be streamed directly from a URL.&lt;br>
+Example: &lt;em>&lt;a href="https://play.radiorivendell.com/radio/8000/radio.mp3">https://play.radiorivendell.com/radio/8000/radio.mp3&lt;/a>&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Playlist Files&lt;/strong>&lt;br>
+They are stored in the &lt;em>Radios&lt;/em> directory (by default &lt;em>/your/home/&lt;strong>.gm-companion/radios&lt;/strong>&lt;/em>). Both &lt;strong>&lt;em>.m3u&lt;/em>&lt;/strong> and &lt;strong>&lt;em>.pls&lt;/em>&lt;/strong> playlists are supported.&lt;/li>
+&lt;/ol>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;p>The resources folder contains custom thumbnails for audio elements.&lt;/p>
+&lt;p>By default the folder is located here:&lt;br>
+&lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/resources&lt;/strong>&lt;/em>&lt;/p></description></item><item><title>Docs: Characters</title><link>https://gm-companion.github.io/docs/tools/characters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/characters/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/character-tool-01.webp" alt="Screenshot of the character tool">&lt;/p>
 &lt;h2 id="adding-characters">Adding Characters&lt;/h2>
 &lt;ol>
 &lt;li>Go to the &lt;em>characters&lt;/em> directory. (By default &lt;em>/your/home/&lt;strong>.gm-companion/characters&lt;/strong>)&lt;/em>&lt;/li>
-&lt;li>Create a new folder with the name of the character you want to add, for example: &lt;em>Frank Lightspeed&lt;/em>&lt;/li>
-&lt;li>Copy images of the character sheet pages to that folder and give them descriptive names. An example could be &lt;em>1 - Skills&lt;/em>, &lt;em>2 - Equipment&lt;/em> &amp;hellip;&lt;br>
-I recomment putting the page numbers first because inside the character tool the pages will be sorted in alphabetical order.&lt;/li>
+&lt;li>Add character sheet (one of the following)
+&lt;ol>
+&lt;li>Put a PDF file into the folder&lt;/li>
+&lt;li>Create a new folder with the name of the character you want to add, for example: &lt;em>Frank Lightspeed&lt;/em>.
+Put images of the character sheet pages to that folder and give them descriptive names.&lt;br>
+An example could be &lt;em>1 - Skills&lt;/em>, &lt;em>2 - Equipment&lt;/em> &amp;hellip;&lt;br>
+Putting the page numbers first is recommended because inside the character tool the pages will be sorted in alphabetical order.&lt;/li>
 &lt;/ol>
-&lt;p>On Linux PDFs are supported as well. Simply put a character sheet PDF in the &lt;em>characters&lt;/em> directory.&lt;/p></description></item><item><title>Docs: Combat Tracker</title><link>https://gm-companion.github.io/docs/tools/combat-tracker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/combat-tracker/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-01.png" alt="">&lt;/p>
-&lt;p>The combat tracker allows you to have to have an overview in combat situations.&lt;br>
-You can easily see the name, initiative, health and the status of the combatants and who&amp;rsquo;s turn it is.&lt;/p>
-&lt;h3 id="dice">Dice&lt;/h3>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-02.png" alt="">&lt;/p>
-&lt;p>The combat tracker has a built in version of the &lt;a href="https://gm-companion.github.io/docs/tools/dice">dice tool&lt;/a>.&lt;/p></description></item><item><title>Docs: Dice</title><link>https://gm-companion.github.io/docs/tools/dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/dice/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-01.png" alt="" title="Screenshot of the map tool">&lt;/p>
-&lt;p>The dice tool is pretty much self-explanatory.&lt;br>
-Select dice by clicking on an icon or enter a custom amount of sides in the spinbox.&lt;br>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Combat Tracker</title><link>https://gm-companion.github.io/docs/tools/combat-tracker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/combat-tracker/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-01.webp" alt="Screenshot of combat tracker">&lt;/p>
+&lt;h3 id="sorting">Sorting&lt;/h3>
+&lt;p>Entries are sorted by their initiative value (highest first).
+If two or more entries have the same value, their priority is used (again, highest value first).&lt;/p>
+&lt;h3 id="delay-turn">Delay Turn&lt;/h3>
+&lt;p>The &amp;ldquo;delay turn&amp;rdquo; button can be used to move an entry to the end of the queue for this round. This will be reset when a new round starts.&lt;/p>
+&lt;h2 id="dice">Dice&lt;/h2>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/combat-tracker-02.webp" alt="Screenshot of combat tracker with dice">&lt;/p>
+&lt;p>The combat tracker has a built in version of the &lt;a href="https://gm-companion.github.io/docs/tools/dice">dice tool&lt;/a>.&lt;/p></description></item><item><title>Docs: Das Schwarze Auge</title><link>https://gm-companion.github.io/docs/addons/dsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/dsa/</guid><description>
+&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-dsa">https://github.com/gm-companion/addon-dsa&lt;/a>&lt;/p>
+&lt;h2 id="inhalt">Inhalt&lt;/h2>
+&lt;ul>
+&lt;li>Sphärenklang-Alben und -Songs als Musik-Elemente im Audio Tool&lt;/li>
+&lt;li>Aventurische Namen für den Namensgenerator&lt;/li>
+&lt;li>Aventurische Maßeinheiten für den Umrechner&lt;/li>
+&lt;/ul>
+&lt;!-- - Patzertabellen-Feature im Combat Tracker -->
+&lt;!-- - Gegenstände für den Item Shop -->
+&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>„DAS SCHWARZE AUGE, AVENTURIEN, DERE, MYRANOR, THARUN, UTHURIA und RIESLAND sind eingetragene Marken der Significant Fantasy Medienrechte GbR. Ohne vorherige schriftliche Genehmigung der Ulisses Medien und Spiel Distribution GmbH ist eine Verwendung der genannten Markenzeichen nicht gestattet.“&lt;/p>
+&lt;/div></description></item><item><title>Docs: Dice</title><link>https://gm-companion.github.io/docs/tools/dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/dice/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-01.webp" alt="Screenshot of the dice tool">&lt;/p>
+&lt;p>Select dice by clicking on an icon or choose a custom amount of sides using the spinbox.&lt;br>
 You can also roll multiple dice at once and / or add a modifier. These modifiers can be positive or negative and are added to the resulting roll.&lt;/p>
 &lt;h2 id="example">Example&lt;/h2>
 &lt;p>&lt;em>3D6+4&lt;/em>&lt;/p>
@@ -928,148 +664,133 @@ Result: 18&lt;/p>
 &lt;h2 id="settings">Settings&lt;/h2>
 &lt;p>The dice tool can indicate criticals by displaying the result in a different color than usual (green for success, red for failure, orange for mixed result).&lt;br>
 You can enable / disable this feature and also set what kind of results should count as a crit, either min / max result or fixed values.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-02.png" alt="">&lt;/p></description></item><item><title>Docs: DSA5 Addon</title><link>https://gm-companion.github.io/docs/addons/dsa5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/dsa5/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This addon and it&amp;rsquo;s documentation are only available in German&lt;/p>
-&lt;/div>
-&lt;p>Bei diesem Addon handelt es sich nicht um ein offizielles &amp;ldquo;Das Schwarze Auge&amp;rdquo; Produkt, sondern lediglich um ein Fanprodukt.&lt;/p>
-&lt;h2 id="inhalt">Inhalt&lt;/h2>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/dice-tool-02.webp" alt="Screenshot of dice tool settings">&lt;/p></description></item><item><title>Docs: Install from Source</title><link>https://gm-companion.github.io/docs/install/from-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/from-source/</guid><description>
+&lt;p>If you are unsure about a step have a look at the &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/tree/master/.github/workflows">CI config&lt;/a>
+and if you still need help, feel free to start a discussion on &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/discussions">GitHub&lt;/a>.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>The following tools/libraries need to be installed.&lt;/p>
+&lt;h3 id="build-tools">Build Tools&lt;/h3>
 &lt;ul>
-&lt;li>Sphärenklang-Alben als Spotify Elemente im Audio Tool&lt;/li>
-&lt;li>Aventurische Namen für Namensgenerator&lt;/li>
-&lt;li>Gegenstände für den Item Shop&lt;/li>
-&lt;li>Aventurische Maßeinheiten für den Umrechner&lt;/li>
-&lt;li>Patzertabellen-Feature im Combat Tracker&lt;/li>
+&lt;li>&lt;a href="https://cmake.org/">CMake&lt;/a> &amp;gt;= 3.26&lt;/li>
+&lt;li>A modern C++ compiler with c++17 support (&lt;a href="https://gcc.gnu.org/">g++&lt;/a>, &lt;a href="https://clang.llvm.org/">Clang&lt;/a> and &lt;a href="https://visualstudio.microsoft.com/de/vs/features/cplusplus/">MSVC&lt;/a> have been tested)&lt;/li>
 &lt;/ul>
-&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>„DAS SCHWARZE AUGE, AVENTURIEN, DERE, MYRANOR, THARUN, UTHURIA und RIESLAND sind eingetragene Marken der Significant Fantasy Medienrechte GbR. Ohne vorherige schriftliche Genehmigung der Ulisses Medien und Spiel Distribution GmbH ist eine Verwendung der genannten Markenzeichen nicht gestattet.“&lt;/p>
-&lt;/div></description></item><item><title>Docs: Install from Source</title><link>https://gm-companion.github.io/docs/install/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/other/</guid><description>
-&lt;h2 id="mac-os-x">Mac OS X&lt;/h2>
-&lt;p>This requires homebrew to be installed.&lt;/p>
-&lt;p>Install dependencies&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>brew update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>brew install qt taglib poppler qtkeychain rust
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>brew link qt --force
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get librespot&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>cargo install librespot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Get source code&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-v" data-lang="v">&lt;span style="display:flex;">&lt;span>git clone https:&lt;span style="color:#75715e">//github.com/philinthegaps/gm-companion
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>cd gm&lt;span style="color:#f92672">-&lt;/span>companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update &lt;span style="color:#f92672">--&lt;/span>init &lt;span style="color:#f92672">--&lt;/span>recursive
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build GM-Companion&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>qmake
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j$(sysctl -n hw.logicalcpu)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="general">General&lt;/h2>
-&lt;p>TODO: Format&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>pip install cget
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cget init --shared
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cget install -G &amp;#34;MinGW Makefiles&amp;#34; --release -DCMAKE_C_FLAGS=&amp;#34;-fno-asynchronous-unwind-tables&amp;#34;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Build dependencies:&lt;/p>
+&lt;h3 id="libraries">Libraries&lt;/h3>
+&lt;p>The application depends on a few libraries which can either be installed through a package manager or compiled from source:&lt;/p>
 &lt;ul>
-&lt;li>cmake&lt;/li>
-&lt;li>yasm&lt;/li>
-&lt;li>pkgconfig (lite)&lt;/li>
+&lt;li>&lt;a href="https://www.qt.io/">Qt&lt;/a> &amp;gt;= 6.5&lt;/li>
+&lt;li>&lt;a href="https://github.com/frankosterfeld/qtkeychain">QtKeychain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://taglib.org/">TagLib&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.freedesktop.org/poppler/poppler/">Poppler-Qt&lt;/a>&lt;/li>
+&lt;li>One of the following markdown libraries:
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/github/cmark-gfm">cmark-gfm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Orc/discount">discount&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>GM-Companion depends on the following libraries:&lt;/p>
-&lt;ul>
-&lt;li>Qt &amp;gt;= 5.9&lt;/li>
-&lt;li>taglib&lt;/li>
-&lt;li>poppler-qt&lt;/li>
-&lt;li>wkhtmltopdf&lt;/li>
-&lt;li>cmark-gfm&lt;/li>
-&lt;li>librespot&lt;/li>
-&lt;li>qt5keychain&lt;/li>
-&lt;li>openssl&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Maps</title><link>https://gm-companion.github.io/docs/tools/maps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/maps/</guid><description>
-&lt;p>The map tool allows you to view images of maps.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-01.png" alt="" title="Screenshot of the map tool">&lt;/p>
-&lt;p>Currently maps can only be of type .jpg or .png.&lt;br>
-You can zoom in and out or rotate the image. Drawing and making annotations are features planned for future versions.&lt;/p>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/stachenov/quazip">Quazip&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="optional">Optional&lt;/h3>
+&lt;p>Optionally &lt;a href="https://github.com/librespot-org/librespot">librespot&lt;/a> is required if you want to play music from Spotify.&lt;/p>
+&lt;h2 id="build">Build&lt;/h2>
+&lt;p>Download the source code using git:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>git clone https://github.com/philinthegaps/gm-companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd gm-companion
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update --init --recursive
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Create a build directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir build
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd build
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run cmake:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cmake .. -D CMAKE_INSTALL_PREFIX&lt;span style="color:#f92672">=&lt;/span>install -D CMAKE_BUILD_TYPE&lt;span style="color:#f92672">=&lt;/span>Release
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cmake --build . --config Release --parallel
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cmake --install . --config Release
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run &lt;code>install/bin/gm-companion&lt;/code>.&lt;/p></description></item><item><title>Docs: Maps</title><link>https://gm-companion.github.io/docs/tools/maps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/maps/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-01.webp" alt="Screenshot of the map tool">&lt;/p>
+&lt;p>Currently maps can only be of type .jpg or .png.&lt;/p>
+&lt;h2 id="map-markers">Map Markers&lt;/h2>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/map-tool-02.webp" alt="Screenshot of the map tool with marker editor">&lt;/p>
+&lt;ol>
+&lt;li>Open a map&lt;/li>
+&lt;li>Press the red marker button on the right&lt;/li>
+&lt;li>Press &amp;ldquo;+&amp;rdquo;&lt;/li>
+&lt;li>Drag the marker to it&amp;rsquo;s place&lt;/li>
+&lt;li>Click on the marker to select it and press &amp;ldquo;edit&amp;rdquo;&lt;/li>
+&lt;li>Change the name, set a description, change the icon and color using the dialog&lt;/li>
+&lt;/ol>
 &lt;h2 id="setup">Setup&lt;/h2>
 &lt;p>Maps have to be located inside subfolders inside your base maps folder.&lt;br>
-By default this base folder is &lt;em>&amp;hellip;/your-home-directory**/.gm-companion/maps**&lt;/em>.&lt;br>
-It can be changed in the &lt;a href="https://gm-companion.github.io/docs/settings">settings&lt;/a>.&lt;/p></description></item><item><title>Docs: Name Generator</title><link>https://gm-companion.github.io/docs/tools/name-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/name-generator/</guid><description>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/name-generator-01.png" alt="">&lt;/p>
-&lt;h2 id="usage">Usage&lt;/h2>
-&lt;p>As the name suggests, the &amp;ldquo;Name Generator&amp;rdquo; lets you generate some names for characters.&lt;/p>
-&lt;p>To generate them use the spin box to set the amount of names to be generated. (Default value is 15)&lt;br>
-Select a category, click the button for the type name you want to generate.&lt;br>
-Done.&lt;/p>
-&lt;p>To generate new names click the button again.&lt;/p>
-&lt;h2 id="custom-names">Custom Names&lt;/h2>
-&lt;p>The name generator works by selecting a random one from a list of names and combining it with a last name that is also randomly selected.&lt;/p>
-&lt;p>To add your own names go into the &lt;em>.gm-companion&lt;/em> folder located in your home directory.&lt;br>
-Names are placed in categories, the default one being &lt;em>Generic&lt;/em>.&lt;br>
-If you want to create a new category simply create a new folder in the &lt;em>names&lt;/em> subfolder.&lt;br>
-Inside that folder create another one for the type of names you want to add.&lt;/p>
-&lt;p>&lt;strong>Example:&lt;/strong>&lt;br>
-For this example we will create a new category and name it &amp;ldquo;Example&amp;rdquo;.&lt;br>
-Now we have the following directories: &lt;em>/.gm-companion/names/Example&lt;/em>.&lt;br>
-We now want to add a name generator for dwarf names and to do that we create a new folder &amp;ldquo;Dwarves&amp;rdquo;.&lt;br>
-We need to create 3 textfiles in the &lt;em>Example/Dwarves&lt;/em> folder:&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>male.txt&lt;/em>&lt;/li>
-&lt;li>&lt;em>female.txt&lt;/em>&lt;/li>
-&lt;li>&lt;em>surnames.txt&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;p>Those files include the actual names, seperated by a &amp;ldquo;,&amp;rdquo;. (No spaces!)&lt;br>
-For this example we will open &lt;em>male.txt&lt;/em> and add the following line:&lt;br>
-&lt;code>Bifur,Bofur,Bombur&lt;/code>&lt;br>
-If you want to add female names or surnames do so in a similar fashion.&lt;/p>
-&lt;p>If you add names for a culture that does not use surnames or is female only or something similar, delete the unused files.&lt;/p>
-&lt;h2 id="names-in-addons">Names in Addons&lt;/h2>
-&lt;p>Addons can add their own category of names if they are enabled in the options.&lt;br>
-Addon names are not located in the &lt;em>names&lt;/em> folder but instead in the addon folder.&lt;br>
-For more information about addons visit the &lt;a href="https://gm-companion.github.io/docs/addons">addon page&lt;/a>&lt;/p></description></item><item><title>Docs: Notes</title><link>https://gm-companion.github.io/docs/tools/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/notes/</guid><description>
-&lt;p>This tool allows you to take some quick notes during a session or simply to have all your story notes in one place.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-01.png" alt="">&lt;/p>
-&lt;h2 id="chapters">Chapters&lt;/h2>
-&lt;p>Chapters are actually folders inside your notes folder.&lt;br>
-A chapter can store multiple note pages.&lt;/p>
-&lt;p>To add a chapter, click the &amp;ldquo;+&amp;rdquo; and select &lt;em>Chapter&lt;/em> in the combo-box.&lt;br>
-Enter the title in the text field and click &amp;ldquo;Ok&amp;rdquo;.&lt;/p>
-&lt;p>To remove a chapter, select it via the combo-box. Then press and hold the trash-bin icon.&lt;br>
-Warning: This will also delete all pages inside it!&lt;/p>
+By default this base folder is &lt;em>/your-home-directory/&lt;strong>.gm-companion/maps&lt;/strong>&lt;/em>, but it can be changed in the settings.&lt;/p></description></item><item><title>Docs: Name Generator</title><link>https://gm-companion.github.io/docs/tools/name-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/name-generator/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Addons&lt;/h4>
+Addons can include name generators.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/name-generator-01.webp" alt="Screenshot of the name generator tool">&lt;/p></description></item><item><title>Docs: Notes</title><link>https://gm-companion.github.io/docs/tools/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/notes/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-01.webp" alt="Screenshot of notes tool in editing mode">&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-02.webp" alt="Screenshot of notes tool in reading mode">&lt;/p>
+&lt;h2 id="books-and-chapters">Books and Chapters&lt;/h2>
+&lt;p>Books and chapters are actually folders inside your configured notes folder.&lt;br>
+The only difference is that books are the top level folders.&lt;/p>
+&lt;p>A book/chapter can contain more chapters and multiple note pages.&lt;/p>
+&lt;p>To add a new book, press the &amp;ldquo;New Notebook&amp;rdquo; button, set a name and press enter.
+Chapters can be added by right-clicking books or chapters and selecting &amp;ldquo;New Chapter&amp;rdquo;.&lt;/p>
 &lt;h2 id="pages">Pages&lt;/h2>
 &lt;p>Notes are textfiles stored inside chapters.&lt;br>
-A note must belong to a chapter.&lt;/p>
-&lt;p>Click the &amp;ldquo;+&amp;rdquo;, select &lt;em>Page&lt;/em> and enter the name to create a new one.&lt;/p>
-&lt;p>Pages don&amp;rsquo;t have to be saved, everytime the page is edited it saves automatically.&lt;br>
-To delete a page, select it and hold the trash-bin icon in the sidebar for a few seconds.&lt;/p>
+A note must always belong to a chapter or a book.&lt;/p>
+&lt;p>Pages can be added by right-clicking books or chapters and selecting &amp;ldquo;New Page&amp;rdquo;.
+If you don&amp;rsquo;t add a file extension, &lt;code>.md&lt;/code> is used.&lt;/p>
+&lt;h3 id="markdown">Markdown&lt;/h3>
+&lt;p>Markdown is a simple markup language. If you have never heard about it, have a look at &lt;a href="https://www.markdownguide.org/">this guide&lt;/a>.&lt;/p>
+&lt;p>By clicking the eye/pen icon you can switch between editing and reading mode.&lt;/p>
+&lt;h3 id="pdf-export">PDF Export&lt;/h3>
+&lt;p>Pages can also be exported as PDFs.&lt;/p>
+&lt;p>To do that, switch into reading mode and press the &amp;ldquo;PDF&amp;rdquo; button. The document will be placed next to the markdown file in the file system.&lt;/p>
 &lt;h2 id="encryption">Encryption&lt;/h2>
 &lt;p>The &amp;ldquo;Encrypt Page&amp;rdquo; button encrypts the current note using the &amp;ldquo;rot13&amp;rdquo; method.&lt;br>
-This method is not a save encryption method as it only replaces every letter by the one at the current alphabetic index + 13.&lt;br>
-This means that encrypting the encrypted note again restores the original one.&lt;/p>
-&lt;p>The idea behind this feature is to prevent others from accidentally reading your notes and spoil themselves, if for example the laptop used by the gamemaster is not actually owned by him but by a player.&lt;/p></description></item><item><title>Docs: Shops</title><link>https://gm-companion.github.io/docs/tools/item-shop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/item-shop/</guid><description>
-&lt;p>With this tool you can create item shops.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-tool-01.png" alt="">&lt;/p>
+This method is not a cryptographically safe encryption method as it only replaces every letter by the one at the current alphabetic index + 13, so that encrypting the encrypted note again restores the original content.&lt;/p>
+&lt;p>The idea behind this feature is to prevent others from accidentally reading your notes.&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/notes-tool-03.webp" alt="Screenshot of notes tool in reading mode (encrypted)">&lt;/p></description></item><item><title>Docs: Shops</title><link>https://gm-companion.github.io/docs/tools/item-shop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/item-shop/</guid><description>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-tool-01.webp" alt="Screenshot of the shop tool">&lt;/p>
 &lt;h2 id="usage">Usage&lt;/h2>
 &lt;ol>
 &lt;li>Select a project in the combo-box. (If there are none, open the editor and create one)&lt;/li>
 &lt;li>Select a category on the left.&lt;/li>
 &lt;li>Select a shop on the right.&lt;/li>
-&lt;li>Done.&lt;/li>
+&lt;li>Profit.&lt;/li>
 &lt;/ol>
 &lt;h2 id="editor">Editor&lt;/h2>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-editor-01.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/shop-editor-01.webp" alt="Screenshot of the shop editor">&lt;/p>
 &lt;p>Shops are managed in project files. By default these are located in this folder:&lt;br>
-&lt;em>&amp;hellip;/your-home-directory**/.gm-companion/shop**&lt;/em>&lt;/p>
+&lt;em>&amp;hellip;/your-home-directory/&lt;strong>.gm-companion/shop&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Every shop also belongs in a category, so create one first before trying to create any shops.&lt;/p>
 &lt;h3 id="editing-a-shop">Editing a shop&lt;/h3>
 &lt;p>When you have created a project, category and a shop, select the shop on left.&lt;br>
 Now you can set a shop owner and add a short description.&lt;br>
 You can add items to your shop from the item list on the right. If the list is empty, open the item editor and create some items.&lt;/p>
 &lt;h2 id="item-editor">Item Editor&lt;/h2>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/item-editor-01.png" alt="">&lt;/p>
-&lt;p>Every item belongs to a category, so create one first.&lt;br>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/item-editor-01.webp" alt="Screenshot of the item editor">&lt;/p>
+&lt;p>Every item needs a category, so create one first.&lt;br>
 Enter the item name and select a category. Price and description are optional.&lt;br>
 When you are done, click &amp;ldquo;Add Item&amp;rdquo;.&lt;br>
-You can now add your item to a shop.&lt;/p></description></item><item><title>Docs: SIFRP Addon</title><link>https://gm-companion.github.io/docs/addons/sifrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/sifrp/</guid><description>
-&lt;p>This is a fanmand addon for &amp;ldquo;A Song of Ice and Fire Roleplaying&amp;rdquo; and not an official product.&lt;/p>
-&lt;h2 id="content">Content&lt;/h2>
-&lt;p>This addon enhances the name generator with names that fit into the &amp;ldquo;A Song of Ice and Fire&amp;rdquo; universe.&lt;br>
-It also comes with units for the converter tool.&lt;/p></description></item><item><title>Docs: Unit Converter</title><link>https://gm-companion.github.io/docs/tools/converter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/converter/</guid><description>
-&lt;p>This tool lets you convert units.&lt;/p>
-&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-tool-01.png" alt="">&lt;/p>
-&lt;p>There are five types of units: length, area, volume, weight and money.&lt;/p></description></item></channel></rss>
+You can now add your item to a shop.&lt;/p></description></item><item><title>Docs: Unit Converter</title><link>https://gm-companion.github.io/docs/tools/converter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/tools/converter/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Addons&lt;/h4>
+Addons can include converter projects.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-tool-01.webp" alt="Converter tool screenshot">&lt;/p>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>Enter a value into the left field and choose a unit below. It will be converted to the unit on the right.&lt;/p>
+&lt;p>GM-Companion comes with many common units included.&lt;/p>
+&lt;h3 id="editor">Editor&lt;/h3>
+&lt;p>Custom units can easily created using the unit editor.&lt;/p>
+&lt;ol>
+&lt;li>Use the dialog to create a new project.&lt;/li>
+&lt;li>Create a category for your units.&lt;/li>
+&lt;li>Add your unit to the category.&lt;/li>
+&lt;/ol>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Unit value&lt;/h4>
+Units need to have a value relative to an arbitrary &amp;ldquo;reference unit&amp;rdquo;.
+This could be the relevant SI unit for a category or something completely different.
+It is only important that this is kept consistent for all units in the category.
+&lt;/div>
+&lt;p>&lt;img src="https://gm-companion.github.io/images/converter-editor-01.webp" alt="Converter tool screenshot">
+&lt;img src="https://gm-companion.github.io/images/converter-editor-02.webp" alt="Converter tool screenshot">&lt;/p></description></item></channel></rss>
