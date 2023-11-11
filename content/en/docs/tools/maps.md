@@ -9,6 +9,8 @@ Currently maps can only be of type .jpg or .png.
 
 ## Map Markers
 
+![Screenshot of the map tool with marker editor](/images/map-tool-02.webp)
+
 1. Open a map
 2. Press the red marker button on the right
 3. Press "+"
