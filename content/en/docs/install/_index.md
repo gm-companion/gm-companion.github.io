@@ -9,7 +9,7 @@ Currently only Linux and Windows (x86_64) are supported, but you can always try 
 
 ## Windows
 
-[Release 1.2.0 (x86_64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.0/gm-companion_1.2.0_win64.zip)  
+[Release 1.2.1 (x86_64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.1/gm-companion_1.2.1_win64.zip)
 
 The program works without an installer. Simply extract all the files from the .zip archive to a folder and run _gm-companion.exe_.
 
@@ -21,7 +21,7 @@ You can of course always [build from source](/docs/install/from-source).
 
 ### Generic
 
-[AppImage (amd64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.0/gm-companion-1.2.0_amd64.AppImage)  
+[AppImage (x86_64)](https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.1/gm-companion_1.2.1_x86_64.AppImage)
 
 ### Arch Linux
 
