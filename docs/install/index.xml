@@ -1,5 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Install</title><link>https://gm-companion.github.io/docs/install/</link><description>Recent content in Install on GM-Companion</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/install/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Install from Source</title><link>https://gm-companion.github.io/docs/install/from-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/from-source/</guid><description>
-&lt;p>If you are unsure about a step have a look at the &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/tree/master/.github/workflows">CI config&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Install on GM-Companion</title><link>https://gm-companion.github.io/docs/install/</link><description>Recent content in Install on GM-Companion</description><generator>Hugo</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/install/index.xml" rel="self" type="application/rss+xml"/><item><title>Install from Source</title><link>https://gm-companion.github.io/docs/install/from-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/install/from-source/</guid><description>&lt;p>If you are unsure about a step have a look at the &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/tree/master/.github/workflows">CI config&lt;/a>
 and if you still need help, feel free to start a discussion on &lt;a href="https://github.com/PhilInTheGaps/GM-Companion/discussions">GitHub&lt;/a>.&lt;/p>
 &lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;p>The following tools/libraries need to be installed.&lt;/p>
@@ -9,32 +8,4 @@ and if you still need help, feel free to start a discussion on &lt;a href="https
 &lt;li>A modern C++ compiler with c++17 support (&lt;a href="https://gcc.gnu.org/">g++&lt;/a>, &lt;a href="https://clang.llvm.org/">Clang&lt;/a> and &lt;a href="https://visualstudio.microsoft.com/de/vs/features/cplusplus/">MSVC&lt;/a> have been tested)&lt;/li>
 &lt;/ul>
 &lt;h3 id="libraries">Libraries&lt;/h3>
-&lt;p>The application depends on a few libraries which can either be installed through a package manager or compiled from source:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.qt.io/">Qt&lt;/a> &amp;gt;= 6.5&lt;/li>
-&lt;li>&lt;a href="https://github.com/frankosterfeld/qtkeychain">QtKeychain&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://taglib.org/">TagLib&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gitlab.freedesktop.org/poppler/poppler/">Poppler-Qt&lt;/a>&lt;/li>
-&lt;li>One of the following markdown libraries:
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/github/cmark-gfm">cmark-gfm&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/Orc/discount">discount&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://github.com/stachenov/quazip">Quazip&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="optional">Optional&lt;/h3>
-&lt;p>Optionally &lt;a href="https://github.com/librespot-org/librespot">librespot&lt;/a> is required if you want to play music from Spotify.&lt;/p>
-&lt;h2 id="build">Build&lt;/h2>
-&lt;p>Download the source code using git:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>git clone https://github.com/philinthegaps/gm-companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd gm-companion
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule update --init --recursive
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Create a build directory:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd build
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run cmake:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cmake .. -D CMAKE_INSTALL_PREFIX&lt;span style="color:#f92672">=&lt;/span>install -D CMAKE_BUILD_TYPE&lt;span style="color:#f92672">=&lt;/span>Release
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cmake --build . --config Release --parallel
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cmake --install . --config Release
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run &lt;code>install/bin/gm-companion&lt;/code>.&lt;/p></description></item></channel></rss>
+&lt;p>The application depends on a few libraries which can either be installed through a package manager or compiled from source:&lt;/p></description></item></channel></rss>

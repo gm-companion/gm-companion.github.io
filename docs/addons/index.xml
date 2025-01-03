@@ -1,6 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GM-Companion – Addons</title><link>https://gm-companion.github.io/docs/addons/</link><description>Recent content in Addons on GM-Companion</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/addons/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Audio</title><link>https://gm-companion.github.io/docs/addons/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/audio/</guid><description>
-&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-audio-library">https://github.com/gm-companion/addon-audio-library&lt;/a>&lt;/p></description></item><item><title>Docs: Das Schwarze Auge</title><link>https://gm-companion.github.io/docs/addons/dsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/dsa/</guid><description>
-&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-dsa">https://github.com/gm-companion/addon-dsa&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Addons on GM-Companion</title><link>https://gm-companion.github.io/docs/addons/</link><description>Recent content in Addons on GM-Companion</description><generator>Hugo</generator><language>en</language><atom:link href="https://gm-companion.github.io/docs/addons/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio</title><link>https://gm-companion.github.io/docs/addons/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/audio/</guid><description>&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-audio-library">https://github.com/gm-companion/addon-audio-library&lt;/a>&lt;/p></description></item><item><title>Das Schwarze Auge</title><link>https://gm-companion.github.io/docs/addons/dsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gm-companion.github.io/docs/addons/dsa/</guid><description>&lt;p>GitHub Link: &lt;a href="https://github.com/gm-companion/addon-dsa">https://github.com/gm-companion/addon-dsa&lt;/a>&lt;/p>
 &lt;h2 id="inhalt">Inhalt&lt;/h2>
 &lt;ul>
 &lt;li>Sphärenklang-Alben und -Songs als Musik-Elemente im Audio Tool&lt;/li>
@@ -10,6 +8,7 @@
 &lt;!-- - Patzertabellen-Feature im Combat Tracker -->
 &lt;!-- - Gegenstände für den Item Shop -->
 &lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+
+
 &lt;div class="pageinfo pageinfo-primary">
-&lt;p>„DAS SCHWARZE AUGE, AVENTURIEN, DERE, MYRANOR, THARUN, UTHURIA und RIESLAND sind eingetragene Marken der Significant Fantasy Medienrechte GbR. Ohne vorherige schriftliche Genehmigung der Ulisses Medien und Spiel Distribution GmbH ist eine Verwendung der genannten Markenzeichen nicht gestattet.“&lt;/p>
-&lt;/div></description></item></channel></rss>
+&lt;p>„DAS SCHWARZE AUGE, AVENTURIEN, DERE, MYRANOR, THARUN, UTHURIA und RIESLAND sind eingetragene Marken der Significant Fantasy Medienrechte GbR. Ohne vorherige schriftliche Genehmigung der Ulisses Medien und Spiel Distribution GmbH ist eine Verwendung der genannten Markenzeichen nicht gestattet.“&lt;/p></description></item></channel></rss>
